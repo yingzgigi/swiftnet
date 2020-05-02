@@ -14,7 +14,7 @@ def init_ade20k_class_color_info(path: Path):
     return classes + ['void'], np.concatenate([colors, np.array([[0, 0, 0]], dtype=colors.dtype)])
 
 
-class_info, color_info = init_ade20k_class_color_info(Path('/home/morsic/datasets/ADE20k'))
+class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets/ADE20k_2016_07_26'))
 
 
 class ADE20k(Dataset):

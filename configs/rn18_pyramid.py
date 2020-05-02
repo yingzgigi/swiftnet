@@ -18,7 +18,7 @@ from models.util import get_n_params
 
 path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
-root = Path.home() / Path('datasets/Cityscapes')
+root = Path.home() / Path('datasets/')
 
 evaluating = False
 random_crop_size = 768
