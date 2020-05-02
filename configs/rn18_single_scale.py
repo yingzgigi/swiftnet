@@ -11,6 +11,7 @@ from models.resnet.resnet_single_scale import *
 from models.loss import SemsegCrossEntropy
 from data.transform import *
 from data.cityscapes import Cityscapes
+from data.ade20k improt ADE20k
 from evaluation import StorePreds
 
 from models.util import get_n_params
@@ -27,10 +28,15 @@ mean = [73.15, 82.90, 72.3]
 std = [47.67, 48.49, 47.73]
 mean_rgb = tuple(np.uint8(scale * np.array(mean)))
 
-num_classes = Cityscapes.num_classes
-ignore_id = Cityscapes.num_classes
-class_info = Cityscapes.class_info
-color_info = Cityscapes.color_info
+#num_classes = Cityscapes.num_classes
+#ignore_id = Cityscapes.num_classes
+#class_info = Cityscapes.class_info
+#color_info = Cityscapes.color_info
+
+num_classes = ADE20k.num_classes
+ignore_id = ADE20k.num_classes
+class_info = ADE20k.class_info
+color_info = ADE20k.color_info
 
 target_size_crops = (random_crop_size, random_crop_size)
 target_size_crops_feats = (random_crop_size // 4, random_crop_size // 4)
@@ -59,8 +65,11 @@ else:
          ]
     )
 
-dataset_train = Cityscapes(root, transforms=trans_train, subset='train')
-dataset_val = Cityscapes(root, transforms=trans_val, subset='val')
+#dataset_train = Cityscapes(root, transforms=trans_train, subset='train')
+#dataset_val = Cityscapes(root, transforms=trans_val, subset='val')
+
+dataset_train = ADE20k(root, transforms=trans_train, subset='train')
+dataset_val = ADE20k(root, transform=trans_val, subset='val')
 
 resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)
 model = SemsegModel(resnet, num_classes)
