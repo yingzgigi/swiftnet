@@ -42,7 +42,7 @@ class Trainer:
     def __init__(self, conf, args, name):
         self.conf = conf
         using_hparams = hasattr(conf, 'hyperparams')
-        print(f'Using hparams: {using_hparams}')
+        #print(f'Using hparams: {using_hparams}')
         self.hyperparams = self.conf
         self.args = args
         self.name = name
