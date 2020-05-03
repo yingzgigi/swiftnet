@@ -51,3 +51,5 @@ class ADE20k(Dataset):
         if self.epoch is not None:
             ret_dict['epoch'] = int(self.epoch.value)
         return self.transforms(ret_dict)
+
+
