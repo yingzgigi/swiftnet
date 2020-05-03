@@ -48,6 +48,7 @@ class ADE20k(Dataset):
         }
         if self.open_images:
             ret_dict['image'] = self.images[item]
+            print(f'open images ------ ----- : {ret_dict['image']}')
         if self.epoch is not None:
             ret_dict['epoch'] = int(self.epoch.value)
         return self.transforms(ret_dict)
