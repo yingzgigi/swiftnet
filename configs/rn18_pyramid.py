@@ -10,7 +10,7 @@ import numpy as np
 from models.semseg import SemsegModel
 from models.resnet.resnet_pyramid import *
 from models.loss import BoundaryAwareFocalLoss
-from data.transform import *
+from data.transform import ADE20k
 #from data.cityscapes import Cityscapes
 from data.ade20k import *
 from evaluation import StorePreds
