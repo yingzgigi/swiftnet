@@ -119,3 +119,5 @@ if evaluating:
     to_color = ColorizeLabels(color_info)
     to_image = Compose([DenormalizeTh(scale, mean, std), Numpy(), to_color])
     eval_observers = [StorePreds(store_dir, to_image, to_color)]
+
+
