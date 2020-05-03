@@ -38,7 +38,6 @@ class ADE20k(Dataset):
         print(f'Num images: {len(self)}')
 
     def __len__(self):
-        print(len(self.images))
         return len(self.images)
 
     def __getitem__(self, item):
