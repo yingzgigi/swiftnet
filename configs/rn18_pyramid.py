@@ -11,7 +11,8 @@ from models.semseg import SemsegModel
 from models.resnet.resnet_pyramid import *
 from models.loss import BoundaryAwareFocalLoss
 from data.transform import *
-from data.cityscapes import Cityscapes
+#from data.cityscapes import Cityscapes
+from data.ade20k import *
 from evaluation import StorePreds
 
 from models.util import get_n_params
@@ -28,10 +29,15 @@ mean = [73.15, 82.90, 72.3]
 std = [47.67, 48.49, 47.73]
 mean_rgb = tuple(np.uint8(scale * np.array(mean)))
 
-num_classes = Cityscapes.num_classes
-ignore_id = Cityscapes.num_classes
-class_info = Cityscapes.class_info
-color_info = Cityscapes.color_info
+#num_classes = Cityscapes.num_classes
+#ignore_id = Cityscapes.num_classes
+#class_info = Cityscapes.class_info
+#color_info = Cityscapes.color_info
+
+num_classes = ADE20k.num_classes
+ignore_id = ADE20k.num_classes
+class_info = ADE20k.class_info
+color_info = ADE20k.color_info
 
 num_levels = 3
 ostride = 4
@@ -63,8 +69,11 @@ else:
          Tensor(),
          ])
 
-dataset_train = Cityscapes(root, transforms=trans_train, subset='train')
-dataset_val = Cityscapes(root, transforms=trans_val, subset='val')
+#dataset_train = Cityscapes(root, transforms=trans_train, subset='train')
+#dataset_val = Cityscapes(root, transforms=trans_val, subset='val')
+
+dataset_train = ADE20k(root, transforms=trans_train, subset='train')
+dataset_val = ADE20k(root, transforms=trans_val, subset='val')
 
 backbone = resnet18(pretrained=True,
                     pyramid_levels=num_levels,
