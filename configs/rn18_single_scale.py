@@ -11,7 +11,7 @@ from models.resnet.resnet_single_scale import *
 from models.loss import SemsegCrossEntropy
 from data.transform import *
 from data.cityscapes import Cityscapes
-from data.ade20k improt ADE20k
+from data.ade20k import ADE20k
 from evaluation import StorePreds
 
 from models.util import get_n_params
