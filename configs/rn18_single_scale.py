@@ -71,6 +71,8 @@ else:
 dataset_train = ADE20k(root, transforms=trans_train, subset='training')
 dataset_val = ADE20k(root, transforms=trans_val, subset='validation')
 
+print(f'root path -------- : {root}')
+
 resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)
 model = SemsegModel(resnet, num_classes)
 if evaluating:
