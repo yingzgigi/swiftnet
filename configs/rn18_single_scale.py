@@ -69,7 +69,7 @@ else:
 #dataset_val = Cityscapes(root, transforms=trans_val, subset='val')
 
 dataset_train = ADE20k(root, transforms=trans_train, subset='train')
-dataset_val = ADE20k(root, transform=trans_val, subset='val')
+dataset_val = ADE20k(root, transforms=trans_val, subset='val')
 
 resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)
 model = SemsegModel(resnet, num_classes)
