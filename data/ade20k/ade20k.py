@@ -46,7 +46,7 @@ class ADE20k(Dataset):
             'subset': self.subset,
             'labels': self.labels[item]
         }
-        print(f'num labels ----- : {len(labels)}')
+        print(f'num labels ----- : {len(self.labels)}')
         if self.open_images:
             ret_dict['image'] = self.images[item]
             print(f'open images ------ ----- ')
