@@ -21,7 +21,7 @@ path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
 evaluating = False
-random_crop_size = 224
+random_crop_size = 768
 
 scale = 1
 mean = [73.15, 82.90, 72.3]
@@ -94,7 +94,7 @@ else:
     optimizer = optim.Adam(optim_params, betas=(0.9, 0.99))
     lr_scheduler = optim.lr_scheduler.CosineAnnealingLR(optimizer, epochs, lr_min)
 
-batch_size = 14
+batch_size = 1
 print(f'Batch size: {batch_size}')
 
 if evaluating:
