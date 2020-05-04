@@ -44,7 +44,7 @@ class ADE20k(Dataset):
         ret_dict = {
             'name': self.images[item].stem,
             'subset': self.subset,
-            'labels': self.labels[item]
+            'labels': self.labels[item+1]
         }
         if self.open_images:
             ret_dict['image'] = self.images[item]
