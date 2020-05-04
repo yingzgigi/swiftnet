@@ -46,10 +46,10 @@ class ADE20k(Dataset):
             'subset': self.subset,
             'labels': self.labels[item]
         }
-        print(f'num labels ----- : {len(self.labels)}')
+        #print(f'num labels ----- : {len(self.labels)}')
         if self.open_images:
             ret_dict['image'] = self.images[item]
-            print(f'open images ------ ----- ')
+            #print(f'open images ------ ----- ')
         if self.epoch is not None:
             ret_dict['epoch'] = int(self.epoch.value)
         return self.transforms(ret_dict)
