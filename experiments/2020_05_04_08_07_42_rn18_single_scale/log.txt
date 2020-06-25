@@ -1,0 +1,13 @@
+Elapsed time: 0:00:01.728711
+LR: 3.9998e-04
+LR: 9.9996e-05
+Epoch: 0 / 249
+Experiment dir: //home/hchen/Documents/yzh/swiftnet2/swiftnet/experiments/2020_05_04_08_07_42_rn18_single_scale
+num labels ----- : 6115
+open images ------ ----- 
+num labels ----- : 6115
+open images ------ ----- 
+num labels ----- : 6115
+open images ------ ----- 
+num labels ----- : 6115
+open images ------ ----- 

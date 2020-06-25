@@ -1,0 +1,6 @@
+Elapsed time: 0:00:12.375577
+LR: 3.9998e-04
+LR: 9.9996e-05
+Epoch: 0 / 249
+Experiment dir: //home/hchen/Documents/yzh/swiftnet2/swiftnet/experiments/2020_05_04_17_35_15_rn18_single_scale
+Step: 0 Loss: 5.0217
