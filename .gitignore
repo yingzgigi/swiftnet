@@ -2,3 +2,5 @@ lib/cylib.c
 lib/cylib.cc
 lib/cylib.html
 lib/cylib.so
+test.txt
+text_speech.py

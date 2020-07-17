@@ -7,13 +7,13 @@ import warnings
 from .util import _BNReluConv, upsample
 
 
-class SemsegModel(nn.Module):
+class SemsegModel(nn.Module): #resnet here
     def __init__(self, backbone, num_classes, num_inst_classes=None, use_bn=True, k=1, bias=True,
                  loss_ret_additional=False, upsample_logits=True, logit_class=_BNReluConv,
                  multiscale_factors=(.5, .75, 1.5, 2.)):
         super(SemsegModel, self).__init__()
         self.backbone = backbone
-        self.num_classes = num_classes
+        self.num_classes = num_classes #datasets
         self.logits = logit_class(self.backbone.num_features, self.num_classes, batch_norm=use_bn, k=k, bias=bias)
         if num_inst_classes is not None:
             self.border_logits = _BNReluConv(self.backbone.num_features, num_inst_classes, batch_norm=use_bn,
@@ -87,7 +87,7 @@ class SemsegModel(nn.Module):
             F.interpolate(pyramid[0], scale_factor=sf, mode=self.backbone.pyramid_subsample,
                           align_corners=self.backbone.align_corners) for sf in self.multiscale_factors
         ]
-        for image in pyramid:
+        for image in pyramid:   #SSP spatial pyramid pooling layer
             batch['image'] = image
             logits, additional = self.do_forward(batch, image_size=image_size)
             if ms_logits is None:

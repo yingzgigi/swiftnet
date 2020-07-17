@@ -73,8 +73,8 @@ dataset_val = ADE20k(root, transforms=trans_val, subset='validation')
 
 print(f'root path -------- : {root}')
 
-resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)
-model = SemsegModel(resnet, num_classes)
+resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)#####4
+model = SemsegModel(resnet, num_classes) ####3
 if evaluating:
     model.load_state_dict(torch.load('weights/rn18_single_scale/model_best.pt'))
 else:

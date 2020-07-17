@@ -46,7 +46,7 @@ class Trainer:
         self.hyperparams = self.conf
         self.args = args
         self.name = name
-        self.model = self.conf.model
+        self.model = self.conf.model ###2
         self.optimizer = self.conf.optimizer
 
         self.dataset_train = self.conf.dataset_train
@@ -92,7 +92,7 @@ class Trainer:
             dir_iou = Path(self.args.store_dir) / (f'{self.best_iou:.2f}_'.replace('.', '-') + self.name)
             os.rename(self.experiment_dir, dir_iou)
 
-    def train(self):
+    def train(self):##1
         num_epochs = self.hyperparams.epochs
         start_epoch = self.hyperparams.start_epoch if hasattr(self.hyperparams, 'start_epoch') else 0
         for epoch in range(start_epoch, num_epochs):
@@ -109,13 +109,13 @@ class Trainer:
                 self.model.criterion.step_counter = 0
                 print(f'Epoch: {epoch} / {num_epochs - 1}')
                 if eval_epoch and not self.args.dry:
-                    print("Experiment dir: %s" % self.experiment_dir)
+                    print("Experiment dir: %s" % self.experiment_dir)   #ex_dir:store experiment
                 batch_iterator = iter(enumerate(self.loader_train))
                 start_t = perf_counter()
                 for step, batch in batch_iterator:
                     self.optimizer.zero_grad()
                     loss = self.model.loss(batch)
-                    loss.backward()
+                    loss.backward() ##
                     self.optimizer.step()
                     if step % 80 == 0 and step > 0:
                         curr_t = perf_counter()
@@ -123,7 +123,7 @@ class Trainer:
                 if not self.args.dry:
                     store(self.model, self.store_path, 'model')
                     store(self.optimizer, self.store_path, 'optimizer')
-                if eval_epoch and self.args.eval:
+                if eval_epoch and self.args.eval: ##evaluating
                     print('Evaluating model')
                     iou, per_class_iou = evaluate_semseg(self.model, self.loader_val, self.dataset_val.class_info)
                     self.validation_ious += [iou]

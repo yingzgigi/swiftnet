@@ -267,7 +267,7 @@ class ResNet(nn.Module):
         return self.forward_up(self.forward_down(image))
 
 
-def resnet18(pretrained=True, **kwargs):
+def resnet18(pretrained=True, **kwargs): ####4
     """Constructs a ResNet-18 model.
     Args:
         pretrained (bool): If True, returns a model pre-trained on ImageNet
