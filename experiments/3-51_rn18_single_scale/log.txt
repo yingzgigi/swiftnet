@@ -1,0 +1,2044 @@
+Elapsed time: 0:00:04.852873
+LR: 3.9998e-04
+LR: 9.9996e-05
+Epoch: 0 / 249
+Experiment dir: //home/hchen/Documents/yzh/swiftnet2/swiftnet/experiments/2020_05_04_17_44_27_rn18_single_scale
+Step: 0 Loss: 5.2642
+Step: 20 Loss: 4.5371
+Step: 40 Loss: 4.6747
+Step: 60 Loss: 2.4761
+Step: 80 Loss: 3.3423
+14.42fps
+Step: 100 Loss: 3.0226
+Step: 120 Loss: 2.7549
+Step: 140 Loss: 4.3739
+Step: 160 Loss: 2.5234
+14.79fps
+Step: 180 Loss: 4.1145
+Step: 200 Loss: 3.3152
+Step: 220 Loss: 1.9130
+Step: 240 Loss: 4.3595
+14.98fps
+Step: 260 Loss: 4.3651
+Step: 280 Loss: 2.9206
+Step: 300 Loss: 3.7272
+Step: 320 Loss: 3.6544
+14.87fps
+Step: 340 Loss: 3.7903
+Step: 360 Loss: 1.7790
+Step: 380 Loss: 2.0303
+Step: 400 Loss: 1.4630
+15.01fps
+Step: 420 Loss: 2.2174
+Step: 440 Loss: 2.9547
+Step: 460 Loss: 2.1842
+Step: 480 Loss: 3.5364
+14.21fps
+Step: 500 Loss: 5.0523
+Step: 520 Loss: 1.9030
+Step: 540 Loss: 1.8384
+Step: 560 Loss: 2.8708
+14.23fps
+Step: 580 Loss: 2.2859
+Step: 600 Loss: 2.2360
+Step: 620 Loss: 2.5347
+Step: 640 Loss: 3.1381
+14.38fps
+Step: 660 Loss: 2.2539
+Step: 680 Loss: 2.7256
+Step: 700 Loss: 2.3930
+Step: 720 Loss: 2.8504
+14.44fps
+Step: 740 Loss: 3.3740
+Step: 760 Loss: 3.4611
+Step: 780 Loss: 2.6955
+Step: 800 Loss: 1.6243
+14.50fps
+Step: 820 Loss: 4.7218
+Step: 840 Loss: 2.9502
+Step: 860 Loss: 3.1514
+Step: 880 Loss: 3.2747
+14.58fps
+Step: 900 Loss: 1.8635
+Step: 920 Loss: 2.5986
+Step: 940 Loss: 2.7820
+Step: 960 Loss: 3.5845
+14.59fps
+Step: 980 Loss: 1.8520
+Step: 1000 Loss: 4.5706
+Step: 1020 Loss: 2.7651
+Step: 1040 Loss: 3.9994
+14.18fps
+Step: 1060 Loss: 3.1388
+Step: 1080 Loss: 3.1151
+Step: 1100 Loss: 2.5368
+Step: 1120 Loss: 3.1241
+14.26fps
+Step: 1140 Loss: 2.8165
+Step: 1160 Loss: 3.6070
+Step: 1180 Loss: 2.2514
+Step: 1200 Loss: 3.6030
+14.34fps
+Step: 1220 Loss: 2.0557
+Step: 1240 Loss: 1.9199
+Step: 1260 Loss: 4.5208
+Step: 1280 Loss: 3.8422
+14.37fps
+Step: 1300 Loss: 3.0103
+Step: 1320 Loss: 1.6857
+Step: 1340 Loss: 1.9694
+Step: 1360 Loss: 3.7518
+14.43fps
+Step: 1380 Loss: 2.7141
+Step: 1400 Loss: 3.9851
+Step: 1420 Loss: 2.3842
+Step: 1440 Loss: 1.7465
+14.38fps
+Step: 1460 Loss: 2.8174
+Step: 1480 Loss: 1.5261
+Step: 1500 Loss: 1.7520
+Step: 1520 Loss: 2.3132
+14.18fps
+Step: 1540 Loss: 2.8074
+Step: 1560 Loss: 3.0817
+Step: 1580 Loss: 1.8088
+Step: 1600 Loss: 3.1600
+14.23fps
+Step: 1620 Loss: 2.7975
+Step: 1640 Loss: 2.9345
+Step: 1660 Loss: 3.3992
+Step: 1680 Loss: 2.3251
+14.28fps
+Step: 1700 Loss: 1.5992
+Step: 1720 Loss: 1.0400
+Step: 1740 Loss: 2.4443
+Step: 1760 Loss: 3.0130
+14.31fps
+Step: 1780 Loss: 1.4272
+Step: 1800 Loss: 2.0700
+Step: 1820 Loss: 1.1486
+Step: 1840 Loss: 4.8094
+14.35fps
+Step: 1860 Loss: 3.7742
+Step: 1880 Loss: 2.8091
+Step: 1900 Loss: 2.6004
+Step: 1920 Loss: 2.7592
+14.40fps
+Step: 1940 Loss: 3.7094
+Step: 1960 Loss: 4.0917
+Step: 1980 Loss: 2.3212
+Step: 2000 Loss: 2.3164
+14.30fps
+Step: 2020 Loss: 2.1904
+Step: 2040 Loss: 2.0516
+Step: 2060 Loss: 3.4445
+Step: 2080 Loss: 2.1154
+14.21fps
+Step: 2100 Loss: 2.3709
+Step: 2120 Loss: 3.6796
+Step: 2140 Loss: 3.1033
+Step: 2160 Loss: 2.3981
+14.25fps
+Step: 2180 Loss: 2.2414
+Step: 2200 Loss: 2.0169
+Step: 2220 Loss: 3.1175
+Step: 2240 Loss: 1.4511
+14.27fps
+Step: 2260 Loss: 1.9937
+Step: 2280 Loss: 1.9346
+Step: 2300 Loss: 2.1675
+Step: 2320 Loss: 1.9206
+14.31fps
+Step: 2340 Loss: 2.2975
+Step: 2360 Loss: 2.2377
+Step: 2380 Loss: 3.1221
+Step: 2400 Loss: 1.8603
+14.34fps
+Step: 2420 Loss: 3.9321
+Step: 2440 Loss: 3.4227
+Step: 2460 Loss: 3.0107
+Step: 2480 Loss: 1.6076
+14.28fps
+Step: 2500 Loss: 1.7604
+Step: 2520 Loss: 2.0899
+Step: 2540 Loss: 2.1541
+Step: 2560 Loss: 2.8084
+14.20fps
+Step: 2580 Loss: 3.0221
+Step: 2600 Loss: 2.6682
+Step: 2620 Loss: 3.5756
+Step: 2640 Loss: 1.7288
+14.23fps
+Step: 2660 Loss: 1.3390
+Step: 2680 Loss: 3.7193
+Step: 2700 Loss: 1.0522
+Step: 2720 Loss: 2.4080
+14.26fps
+Step: 2740 Loss: 4.6314
+Step: 2760 Loss: 1.3167
+Step: 2780 Loss: 3.4789
+Step: 2800 Loss: 1.4705
+14.29fps
+Step: 2820 Loss: 1.9695
+Step: 2840 Loss: 2.1773
+Step: 2860 Loss: 0.9426
+Step: 2880 Loss: 5.0740
+14.32fps
+Step: 2900 Loss: 4.1629
+Step: 2920 Loss: 1.0832
+Step: 2940 Loss: 2.8111
+Step: 2960 Loss: 2.6585
+14.24fps
+Step: 2980 Loss: 2.0180
+Step: 3000 Loss: 1.9721
+Step: 3020 Loss: 2.2562
+Step: 3040 Loss: 1.7726
+14.20fps
+Step: 3060 Loss: 4.8861
+Step: 3080 Loss: 2.6462
+Step: 3100 Loss: 1.9402
+Step: 3120 Loss: 2.1619
+14.22fps
+Step: 3140 Loss: 1.8113
+Step: 3160 Loss: 2.4699
+Step: 3180 Loss: 1.1668
+Step: 3200 Loss: 1.4899
+14.25fps
+Step: 3220 Loss: 1.1095
+Step: 3240 Loss: 1.7450
+Step: 3260 Loss: 1.1031
+Step: 3280 Loss: 1.4155
+14.28fps
+Step: 3300 Loss: 2.9740
+Step: 3320 Loss: 1.0311
+Step: 3340 Loss: 2.0140
+Step: 3360 Loss: 2.9198
+14.31fps
+Step: 3380 Loss: 1.1796
+Step: 3400 Loss: 2.1842
+Step: 3420 Loss: 3.4541
+Step: 3440 Loss: 1.6018
+14.21fps
+Step: 3460 Loss: 2.0177
+Step: 3480 Loss: 1.1318
+Step: 3500 Loss: 1.2091
+Step: 3520 Loss: 1.4007
+14.21fps
+Step: 3540 Loss: 3.4912
+Step: 3560 Loss: 1.5537
+Step: 3580 Loss: 1.5921
+Step: 3600 Loss: 0.6334
+14.23fps
+Step: 3620 Loss: 2.7197
+Step: 3640 Loss: 2.3181
+Step: 3660 Loss: 2.7793
+Step: 3680 Loss: 1.7157
+14.25fps
+Step: 3700 Loss: 3.5392
+Step: 3720 Loss: 1.1891
+Step: 3740 Loss: 1.9642
+Step: 3760 Loss: 1.4446
+14.28fps
+Step: 3780 Loss: 6.3101
+Step: 3800 Loss: 2.0046
+Step: 3820 Loss: 1.4541
+Step: 3840 Loss: 1.1021
+14.30fps
+Step: 3860 Loss: 0.8188
+Step: 3880 Loss: 2.9947
+Step: 3900 Loss: 2.5813
+Step: 3920 Loss: 3.4244
+14.21fps
+Step: 3940 Loss: 3.2438
+Step: 3960 Loss: 2.2426
+Step: 3980 Loss: 2.6641
+Step: 4000 Loss: 2.0419
+14.21fps
+Step: 4020 Loss: 3.8122
+Step: 4040 Loss: 2.0842
+Step: 4060 Loss: 1.5353
+Step: 4080 Loss: 2.2944
+14.23fps
+Step: 4100 Loss: 1.3546
+Step: 4120 Loss: 2.4353
+Step: 4140 Loss: 2.3397
+Step: 4160 Loss: 2.6746
+14.25fps
+Step: 4180 Loss: 2.4062
+Step: 4200 Loss: 3.8076
+Step: 4220 Loss: 2.7882
+Step: 4240 Loss: 1.1876
+14.27fps
+Step: 4260 Loss: 3.9604
+Step: 4280 Loss: 2.6921
+Step: 4300 Loss: 1.2849
+Step: 4320 Loss: 1.4191
+14.29fps
+Step: 4340 Loss: 4.4618
+Step: 4360 Loss: 2.5608
+Step: 4380 Loss: 1.9219
+Step: 4400 Loss: 1.4894
+14.24fps
+Step: 4420 Loss: 2.0922
+Step: 4440 Loss: 2.0057
+Step: 4460 Loss: 2.3022
+Step: 4480 Loss: 0.8115
+14.21fps
+Step: 4500 Loss: 2.8240
+Step: 4520 Loss: 3.1653
+Step: 4540 Loss: 2.7514
+Step: 4560 Loss: 5.5919
+14.23fps
+Step: 4580 Loss: 1.9937
+Step: 4600 Loss: 1.5797
+Step: 4620 Loss: 0.8177
+Step: 4640 Loss: 2.5390
+14.25fps
+Step: 4660 Loss: 1.5893
+Step: 4680 Loss: 2.4360
+Step: 4700 Loss: 1.8812
+Step: 4720 Loss: 1.8360
+14.27fps
+Step: 4740 Loss: 2.0377
+Step: 4760 Loss: 1.8627
+Step: 4780 Loss: 2.3006
+Step: 4800 Loss: 3.0763
+14.19fps
+Step: 4820 Loss: 2.6240
+Step: 4840 Loss: 2.2525
+Step: 4860 Loss: 1.6634
+Step: 4880 Loss: 2.4065
+14.18fps
+Step: 4900 Loss: 1.3609
+Step: 4920 Loss: 2.8925
+Step: 4940 Loss: 1.4837
+Step: 4960 Loss: 2.4550
+14.19fps
+Step: 4980 Loss: 1.3225
+Step: 5000 Loss: 0.9303
+Step: 5020 Loss: 1.9158
+Step: 5040 Loss: 2.2287
+14.21fps
+Step: 5060 Loss: 2.5419
+Step: 5080 Loss: 1.6674
+Step: 5100 Loss: 4.7050
+Step: 5120 Loss: 2.6546
+14.22fps
+Step: 5140 Loss: 2.2034
+Step: 5160 Loss: 2.0249
+Step: 5180 Loss: 2.0506
+Step: 5200 Loss: 3.1275
+14.23fps
+Step: 5220 Loss: 2.2699
+Step: 5240 Loss: 3.6529
+Step: 5260 Loss: 2.8833
+Step: 5280 Loss: 1.7956
+14.24fps
+Step: 5300 Loss: 1.1466
+Step: 5320 Loss: 2.5348
+Step: 5340 Loss: 1.4184
+Step: 5360 Loss: 1.8391
+14.24fps
+Step: 5380 Loss: 1.4842
+Step: 5400 Loss: 3.5461
+Step: 5420 Loss: 1.9003
+Step: 5440 Loss: 3.7122
+14.25fps
+Step: 5460 Loss: 2.7174
+Step: 5480 Loss: 1.6834
+Step: 5500 Loss: 1.5027
+Step: 5520 Loss: 1.5307
+14.25fps
+Step: 5540 Loss: 1.2001
+Step: 5560 Loss: 3.6844
+Step: 5580 Loss: 3.1451
+Step: 5600 Loss: 2.2214
+14.26fps
+Step: 5620 Loss: 1.2877
+Step: 5640 Loss: 3.4470
+Step: 5660 Loss: 3.3872
+Step: 5680 Loss: 3.0336
+14.26fps
+Step: 5700 Loss: 2.8469
+Step: 5720 Loss: 1.7553
+Step: 5740 Loss: 1.3779
+Step: 5760 Loss: 1.6588
+14.26fps
+Step: 5780 Loss: 1.8600
+Step: 5800 Loss: 5.1227
+Step: 5820 Loss: 1.6636
+Step: 5840 Loss: 2.3495
+14.26fps
+Step: 5860 Loss: 2.0900
+Step: 5880 Loss: 3.1561
+Step: 5900 Loss: 3.0442
+Step: 5920 Loss: 1.6584
+14.27fps
+Step: 5940 Loss: 3.0666
+Step: 5960 Loss: 1.4828
+Step: 5980 Loss: 2.3496
+Step: 6000 Loss: 1.6286
+14.27fps
+Step: 6020 Loss: 2.3085
+Step: 6040 Loss: 1.2261
+Step: 6060 Loss: 1.2795
+Step: 6080 Loss: 1.1948
+14.28fps
+Step: 6100 Loss: 1.9105
+Step: 6120 Loss: 3.7847
+Step: 6140 Loss: 2.5921
+Step: 6160 Loss: 1.3351
+14.28fps
+Step: 6180 Loss: 1.5480
+Step: 6200 Loss: 3.6285
+Step: 6220 Loss: 3.8676
+Step: 6240 Loss: 2.2910
+14.28fps
+Step: 6260 Loss: 3.1674
+Step: 6280 Loss: 1.4873
+Step: 6300 Loss: 2.7724
+Step: 6320 Loss: 0.5676
+14.29fps
+Step: 6340 Loss: 1.2799
+Step: 6360 Loss: 1.8517
+Step: 6380 Loss: 0.8207
+Step: 6400 Loss: 0.7521
+14.29fps
+Step: 6420 Loss: 1.7547
+Step: 6440 Loss: 3.6859
+Step: 6460 Loss: 2.7002
+Step: 6480 Loss: 2.8536
+14.29fps
+Step: 6500 Loss: 2.8948
+Step: 6520 Loss: 2.0216
+Step: 6540 Loss: 2.2107
+Step: 6560 Loss: 2.1194
+14.27fps
+Step: 6580 Loss: 2.7070
+Step: 6600 Loss: 2.6579
+Step: 6620 Loss: 1.7621
+Step: 6640 Loss: 5.8250
+14.28fps
+Step: 6660 Loss: 6.0552
+Step: 6680 Loss: 1.8876
+Step: 6700 Loss: 1.4638
+Step: 6720 Loss: 1.9584
+14.28fps
+Step: 6740 Loss: 3.2428
+Step: 6760 Loss: 1.4657
+Step: 6780 Loss: 3.5319
+Step: 6800 Loss: 1.3720
+14.29fps
+Step: 6820 Loss: 3.7909
+Step: 6840 Loss: 0.7774
+Step: 6860 Loss: 1.3746
+Step: 6880 Loss: 1.9220
+14.29fps
+Step: 6900 Loss: 2.3784
+Step: 6920 Loss: 1.4724
+Step: 6940 Loss: 1.8262
+Step: 6960 Loss: 0.9987
+14.29fps
+Step: 6980 Loss: 3.2826
+Step: 7000 Loss: 0.6877
+Step: 7020 Loss: 1.8092
+Step: 7040 Loss: 0.8864
+14.29fps
+Step: 7060 Loss: 1.2797
+Step: 7080 Loss: 1.0097
+Step: 7100 Loss: 0.7158
+Step: 7120 Loss: 2.3832
+14.30fps
+Step: 7140 Loss: 2.1378
+Step: 7160 Loss: 2.5493
+Step: 7180 Loss: 1.0549
+Step: 7200 Loss: 1.5086
+14.30fps
+Step: 7220 Loss: 0.8416
+Step: 7240 Loss: 0.8850
+Step: 7260 Loss: 2.8416
+Step: 7280 Loss: 2.0078
+14.31fps
+Step: 7300 Loss: 1.4572
+Step: 7320 Loss: 1.8692
+Step: 7340 Loss: 1.9372
+Step: 7360 Loss: 1.7471
+14.31fps
+Step: 7380 Loss: 1.9942
+Step: 7400 Loss: 1.3644
+Step: 7420 Loss: 1.8679
+Step: 7440 Loss: 2.6400
+14.31fps
+Step: 7460 Loss: 2.0569
+Step: 7480 Loss: 2.5497
+Step: 7500 Loss: 2.4369
+Step: 7520 Loss: 3.3517
+14.32fps
+Step: 7540 Loss: 2.0331
+Step: 7560 Loss: 1.9826
+Step: 7580 Loss: 2.1774
+Step: 7600 Loss: 1.9233
+14.32fps
+Step: 7620 Loss: 1.8499
+Step: 7640 Loss: 1.7471
+Step: 7660 Loss: 2.3673
+Step: 7680 Loss: 3.6162
+14.32fps
+Step: 7700 Loss: 0.6960
+Step: 7720 Loss: 0.8978
+Step: 7740 Loss: 1.0024
+Step: 7760 Loss: 2.4763
+14.32fps
+Step: 7780 Loss: 1.9089
+Step: 7800 Loss: 1.9953
+Step: 7820 Loss: 1.6372
+Step: 7840 Loss: 2.1833
+14.32fps
+Step: 7860 Loss: 0.9798
+Step: 7880 Loss: 3.6297
+Step: 7900 Loss: 1.0627
+Step: 7920 Loss: 2.3747
+14.32fps
+Step: 7940 Loss: 2.7903
+Step: 7960 Loss: 1.5166
+Step: 7980 Loss: 1.1533
+Step: 8000 Loss: 1.2975
+14.33fps
+Step: 8020 Loss: 1.6089
+Step: 8040 Loss: 1.6884
+Step: 8060 Loss: 2.3460
+Step: 8080 Loss: 3.3430
+14.33fps
+Step: 8100 Loss: 1.9392
+Step: 8120 Loss: 3.0402
+Step: 8140 Loss: 2.0674
+Step: 8160 Loss: 1.8525
+14.33fps
+Step: 8180 Loss: 0.9583
+Step: 8200 Loss: 0.8085
+Step: 8220 Loss: 1.7710
+Step: 8240 Loss: 2.5076
+14.32fps
+Step: 8260 Loss: 1.4708
+Step: 8280 Loss: 0.6937
+Step: 8300 Loss: 2.7089
+Step: 8320 Loss: 1.5469
+14.32fps
+Step: 8340 Loss: 2.5291
+Step: 8360 Loss: 2.2443
+Step: 8380 Loss: 1.3011
+Step: 8400 Loss: 2.1447
+14.33fps
+Step: 8420 Loss: 3.0510
+Step: 8440 Loss: 3.0836
+Step: 8460 Loss: 1.5248
+Step: 8480 Loss: 2.1234
+14.34fps
+Step: 8500 Loss: 0.7279
+Step: 8520 Loss: 3.1077
+Step: 8540 Loss: 1.1228
+Step: 8560 Loss: 1.8685
+14.35fps
+Step: 8580 Loss: 0.8278
+Step: 8600 Loss: 0.5040
+Step: 8620 Loss: 2.0643
+Step: 8640 Loss: 1.4774
+14.36fps
+Step: 8660 Loss: 0.9319
+Step: 8680 Loss: 4.2420
+Step: 8700 Loss: 3.3817
+Step: 8720 Loss: 1.4540
+14.37fps
+Step: 8740 Loss: 1.1467
+Step: 8760 Loss: 2.0442
+Step: 8780 Loss: 1.4365
+Step: 8800 Loss: 1.9883
+14.35fps
+Step: 8820 Loss: 2.4091
+Step: 8840 Loss: 2.0142
+Step: 8860 Loss: 1.2049
+Step: 8880 Loss: 2.0126
+14.32fps
+Step: 8900 Loss: 0.7458
+Step: 8920 Loss: 2.1332
+Step: 8940 Loss: 2.6867
+Step: 8960 Loss: 2.3300
+14.33fps
+Step: 8980 Loss: 0.8938
+Step: 9000 Loss: 2.3995
+Step: 9020 Loss: 1.7732
+Step: 9040 Loss: 1.3067
+14.34fps
+Step: 9060 Loss: 1.2362
+Step: 9080 Loss: 1.6124
+Step: 9100 Loss: 3.0610
+Step: 9120 Loss: 2.6658
+14.35fps
+Step: 9140 Loss: 2.1785
+Step: 9160 Loss: 3.4137
+Step: 9180 Loss: 2.5636
+Step: 9200 Loss: 2.1218
+14.34fps
+Step: 9220 Loss: 4.6249
+Step: 9240 Loss: 2.1340
+Step: 9260 Loss: 2.7315
+Step: 9280 Loss: 0.4063
+14.30fps
+Step: 9300 Loss: 2.9216
+Step: 9320 Loss: 1.3130
+Step: 9340 Loss: 2.2215
+Step: 9360 Loss: 2.8643
+14.31fps
+Step: 9380 Loss: 2.1210
+Step: 9400 Loss: 2.2110
+Step: 9420 Loss: 1.3623
+Step: 9440 Loss: 0.3036
+14.32fps
+Step: 9460 Loss: 2.6148
+Step: 9480 Loss: 2.8141
+Step: 9500 Loss: 0.9878
+Step: 9520 Loss: 1.2500
+14.33fps
+Step: 9540 Loss: 0.5659
+Step: 9560 Loss: 2.8764
+Step: 9580 Loss: 0.5149
+Step: 9600 Loss: 2.4837
+14.31fps
+Step: 9620 Loss: 1.2184
+Step: 9640 Loss: 0.5630
+Step: 9660 Loss: 2.6117
+Step: 9680 Loss: 1.4082
+14.29fps
+Step: 9700 Loss: 2.0187
+Step: 9720 Loss: 2.7699
+Step: 9740 Loss: 0.7911
+Step: 9760 Loss: 1.0711
+14.30fps
+Step: 9780 Loss: 2.0770
+Step: 9800 Loss: 2.0593
+Step: 9820 Loss: 1.7551
+Step: 9840 Loss: 2.9102
+14.30fps
+Step: 9860 Loss: 2.5688
+Step: 9880 Loss: 2.0394
+Step: 9900 Loss: 2.8495
+Step: 9920 Loss: 1.8229
+14.31fps
+Step: 9940 Loss: 0.5891
+Step: 9960 Loss: 2.2217
+Step: 9980 Loss: 0.8548
+Step: 10000 Loss: 1.3825
+14.29fps
+Step: 10020 Loss: 1.5365
+Step: 10040 Loss: 2.6136
+Step: 10060 Loss: 1.2114
+Step: 10080 Loss: 1.4734
+14.27fps
+Step: 10100 Loss: 1.4161
+Step: 10120 Loss: 2.4302
+Step: 10140 Loss: 2.7588
+Step: 10160 Loss: 1.3906
+14.28fps
+Step: 10180 Loss: 1.4886
+Step: 10200 Loss: 3.0669
+Step: 10220 Loss: 1.2431
+Step: 10240 Loss: 1.9342
+14.29fps
+Step: 10260 Loss: 2.0407
+Step: 10280 Loss: 1.2613
+Step: 10300 Loss: 2.7322
+Step: 10320 Loss: 2.8219
+14.30fps
+Step: 10340 Loss: 2.2877
+Step: 10360 Loss: 4.4188
+Step: 10380 Loss: 1.7787
+Step: 10400 Loss: 2.2129
+14.29fps
+Step: 10420 Loss: 2.8016
+Step: 10440 Loss: 1.1165
+Step: 10460 Loss: 2.2261
+Step: 10480 Loss: 1.5741
+14.26fps
+Step: 10500 Loss: 0.9808
+Step: 10520 Loss: 2.7212
+Step: 10540 Loss: 2.6582
+Step: 10560 Loss: 2.4805
+14.27fps
+Step: 10580 Loss: 1.8366
+Step: 10600 Loss: 0.9710
+Step: 10620 Loss: 1.6769
+Step: 10640 Loss: 0.9986
+14.27fps
+Step: 10660 Loss: 1.7713
+Step: 10680 Loss: 1.9536
+Step: 10700 Loss: 1.7026
+Step: 10720 Loss: 0.9409
+14.28fps
+Step: 10740 Loss: 1.3820
+Step: 10760 Loss: 1.6042
+Step: 10780 Loss: 2.1452
+Step: 10800 Loss: 3.0296
+14.29fps
+Step: 10820 Loss: 2.6301
+Step: 10840 Loss: 0.4787
+Step: 10860 Loss: 1.7462
+Step: 10880 Loss: 1.2673
+14.25fps
+Step: 10900 Loss: 1.6877
+Step: 10920 Loss: 2.0199
+Step: 10940 Loss: 1.9562
+Step: 10960 Loss: 0.6362
+14.25fps
+Step: 10980 Loss: 1.9327
+Step: 11000 Loss: 2.0840
+Step: 11020 Loss: 1.6865
+Step: 11040 Loss: 2.5986
+14.26fps
+Step: 11060 Loss: 3.1899
+Step: 11080 Loss: 2.2469
+Step: 11100 Loss: 3.8556
+Step: 11120 Loss: 1.0959
+14.27fps
+Step: 11140 Loss: 1.4819
+Step: 11160 Loss: 3.2825
+Step: 11180 Loss: 1.5921
+Step: 11200 Loss: 1.2661
+14.28fps
+Step: 11220 Loss: 3.0444
+Step: 11240 Loss: 0.6091
+Step: 11260 Loss: 1.4757
+Step: 11280 Loss: 2.0615
+14.24fps
+Step: 11300 Loss: 2.0196
+Step: 11320 Loss: 1.5418
+Step: 11340 Loss: 1.3126
+Step: 11360 Loss: 1.7178
+14.24fps
+Step: 11380 Loss: 2.5193
+Step: 11400 Loss: 3.5006
+Step: 11420 Loss: 0.4852
+Step: 11440 Loss: 2.0611
+14.25fps
+Step: 11460 Loss: 3.6096
+Step: 11480 Loss: 1.4795
+Step: 11500 Loss: 1.0782
+Step: 11520 Loss: 1.6172
+14.26fps
+Step: 11540 Loss: 1.3342
+Step: 11560 Loss: 1.4270
+Step: 11580 Loss: 1.2240
+Step: 11600 Loss: 2.3290
+14.26fps
+Step: 11620 Loss: 3.5642
+Step: 11640 Loss: 1.7791
+Step: 11660 Loss: 1.9467
+Step: 11680 Loss: 2.6541
+14.24fps
+Step: 11700 Loss: 0.4280
+Step: 11720 Loss: 1.9580
+Step: 11740 Loss: 2.8862
+Step: 11760 Loss: 1.9237
+14.23fps
+Step: 11780 Loss: 2.7939
+Step: 11800 Loss: 0.8111
+Step: 11820 Loss: 1.2534
+Step: 11840 Loss: 0.9759
+14.24fps
+Step: 11860 Loss: 1.9289
+Step: 11880 Loss: 4.3775
+Step: 11900 Loss: 1.8046
+Step: 11920 Loss: 1.1233
+14.25fps
+Step: 11940 Loss: 2.4723
+Step: 11960 Loss: 1.7382
+Step: 11980 Loss: 3.9212
+Step: 12000 Loss: 3.1073
+14.25fps
+Step: 12020 Loss: 1.2067
+Step: 12040 Loss: 1.4254
+Step: 12060 Loss: 2.7705
+Step: 12080 Loss: 3.4825
+14.23fps
+Step: 12100 Loss: 0.9406
+Step: 12120 Loss: 2.1664
+Step: 12140 Loss: 4.1074
+Step: 12160 Loss: 2.5871
+14.22fps
+Step: 12180 Loss: 1.1070
+Step: 12200 Loss: 2.6617
+Step: 12220 Loss: 3.1407
+Step: 12240 Loss: 4.1809
+14.23fps
+Step: 12260 Loss: 2.4288
+Step: 12280 Loss: 2.7787
+Step: 12300 Loss: 1.1985
+Step: 12320 Loss: 2.0618
+14.24fps
+Step: 12340 Loss: 2.4994
+Step: 12360 Loss: 0.7219
+Step: 12380 Loss: 0.7799
+Step: 12400 Loss: 0.9279
+14.24fps
+Step: 12420 Loss: 2.4568
+Step: 12440 Loss: 0.8456
+Step: 12460 Loss: 2.8125
+Step: 12480 Loss: 1.2205
+14.23fps
+Step: 12500 Loss: 2.0340
+Step: 12520 Loss: 3.8558
+Step: 12540 Loss: 2.4327
+Step: 12560 Loss: 3.6673
+14.21fps
+Step: 12580 Loss: 1.1682
+Step: 12600 Loss: 2.0973
+Step: 12620 Loss: 3.9599
+Step: 12640 Loss: 2.7498
+14.22fps
+Step: 12660 Loss: 2.3624
+Step: 12680 Loss: 1.0168
+Step: 12700 Loss: 1.1312
+Step: 12720 Loss: 1.2783
+14.22fps
+Step: 12740 Loss: 3.1654
+Step: 12760 Loss: 1.5330
+Step: 12780 Loss: 3.8620
+Step: 12800 Loss: 4.2779
+14.23fps
+Step: 12820 Loss: 2.0219
+Step: 12840 Loss: 2.1290
+Step: 12860 Loss: 1.7094
+Step: 12880 Loss: 4.6763
+14.24fps
+Step: 12900 Loss: 0.3953
+Step: 12920 Loss: 2.3353
+Step: 12940 Loss: 1.0901
+Step: 12960 Loss: 0.9064
+14.20fps
+Step: 12980 Loss: 1.4665
+Step: 13000 Loss: 0.8552
+Step: 13020 Loss: 0.2695
+Step: 13040 Loss: 2.7700
+14.21fps
+Step: 13060 Loss: 1.3470
+Step: 13080 Loss: 1.7394
+Step: 13100 Loss: 0.5884
+Step: 13120 Loss: 1.4338
+14.22fps
+Step: 13140 Loss: 1.7865
+Step: 13160 Loss: 3.9805
+Step: 13180 Loss: 2.5174
+Step: 13200 Loss: 1.9105
+14.22fps
+Step: 13220 Loss: 2.1936
+Step: 13240 Loss: 4.2364
+Step: 13260 Loss: 1.9476
+Step: 13280 Loss: 0.7579
+14.23fps
+Step: 13300 Loss: 0.8084
+Step: 13320 Loss: 2.8264
+Step: 13340 Loss: 1.7968
+Step: 13360 Loss: 1.7889
+14.23fps
+Step: 13380 Loss: 0.8449
+Step: 13400 Loss: 2.2478
+Step: 13420 Loss: 0.4352
+Step: 13440 Loss: 4.0612
+14.20fps
+Step: 13460 Loss: 3.1924
+Step: 13480 Loss: 2.8865
+Step: 13500 Loss: 1.5940
+Step: 13520 Loss: 0.9405
+14.20fps
+Step: 13540 Loss: 2.7981
+Step: 13560 Loss: 1.7634
+Step: 13580 Loss: 2.1083
+Step: 13600 Loss: 0.8540
+14.21fps
+Step: 13620 Loss: 0.9041
+Step: 13640 Loss: 1.3528
+Step: 13660 Loss: 2.3335
+Step: 13680 Loss: 0.7068
+14.21fps
+Step: 13700 Loss: 1.4072
+Step: 13720 Loss: 2.3938
+Step: 13740 Loss: 1.2294
+Step: 13760 Loss: 2.3974
+14.20fps
+Step: 13780 Loss: 2.6716
+Step: 13800 Loss: 1.3026
+Step: 13820 Loss: 2.8187
+Step: 13840 Loss: 2.5997
+14.21fps
+Step: 13860 Loss: 2.0749
+Step: 13880 Loss: 2.7190
+Step: 13900 Loss: 2.0941
+Step: 13920 Loss: 2.0033
+14.19fps
+Step: 13940 Loss: 1.5522
+Step: 13960 Loss: 2.3646
+Step: 13980 Loss: 1.3491
+Step: 14000 Loss: 0.9905
+14.18fps
+Step: 14020 Loss: 1.9515
+Step: 14040 Loss: 1.0438
+Step: 14060 Loss: 4.4525
+Step: 14080 Loss: 1.0811
+14.19fps
+Step: 14100 Loss: 0.9129
+Step: 14120 Loss: 0.6238
+Step: 14140 Loss: 2.7770
+Step: 14160 Loss: 4.9001
+14.19fps
+Step: 14180 Loss: 1.6215
+Step: 14200 Loss: 0.7151
+Step: 14220 Loss: 2.5818
+Step: 14240 Loss: 2.2203
+14.20fps
+Step: 14260 Loss: 1.7072
+Step: 14280 Loss: 1.1680
+Step: 14300 Loss: 1.3558
+Step: 14320 Loss: 1.9582
+14.20fps
+Step: 14340 Loss: 2.3461
+Step: 14360 Loss: 2.1710
+Step: 14380 Loss: 3.2044
+Step: 14400 Loss: 2.7979
+14.21fps
+Step: 14420 Loss: 1.9087
+Step: 14440 Loss: 4.6550
+Step: 14460 Loss: 0.6581
+Step: 14480 Loss: 1.5693
+14.18fps
+Step: 14500 Loss: 1.7096
+Step: 14520 Loss: 0.9190
+Step: 14540 Loss: 1.4418
+Step: 14560 Loss: 1.8890
+14.19fps
+Step: 14580 Loss: 2.2189
+Step: 14600 Loss: 0.5761
+Step: 14620 Loss: 1.3952
+Step: 14640 Loss: 1.7135
+14.19fps
+Step: 14660 Loss: 1.7946
+Step: 14680 Loss: 1.9436
+Step: 14700 Loss: 1.3256
+Step: 14720 Loss: 0.5438
+14.20fps
+Step: 14740 Loss: 0.9122
+Step: 14760 Loss: 2.8845
+Step: 14780 Loss: 2.3666
+Step: 14800 Loss: 0.6664
+14.20fps
+Step: 14820 Loss: 1.1913
+Step: 14840 Loss: 1.3390
+Step: 14860 Loss: 2.1324
+Step: 14880 Loss: 1.5449
+14.20fps
+Step: 14900 Loss: 3.1061
+Step: 14920 Loss: 0.7502
+Step: 14940 Loss: 2.5492
+Step: 14960 Loss: 2.2230
+14.18fps
+Step: 14980 Loss: 0.9584
+Step: 15000 Loss: 1.7467
+Step: 15020 Loss: 1.2858
+Step: 15040 Loss: 1.6484
+14.19fps
+Step: 15060 Loss: 2.4582
+Step: 15080 Loss: 0.6408
+Step: 15100 Loss: 0.9615
+Step: 15120 Loss: 0.8180
+14.19fps
+Step: 15140 Loss: 1.0148
+Step: 15160 Loss: 1.5590
+Step: 15180 Loss: 2.5505
+Step: 15200 Loss: 2.9137
+14.20fps
+Step: 15220 Loss: 4.6785
+Step: 15240 Loss: 1.5284
+Step: 15260 Loss: 1.7799
+Step: 15280 Loss: 2.0251
+14.20fps
+Step: 15300 Loss: 1.6046
+Step: 15320 Loss: 0.7215
+Step: 15340 Loss: 1.0116
+Step: 15360 Loss: 4.6048
+14.21fps
+Step: 15380 Loss: 3.1042
+Step: 15400 Loss: 3.6360
+Step: 15420 Loss: 0.8699
+Step: 15440 Loss: 2.1491
+14.18fps
+Step: 15460 Loss: 2.3795
+Step: 15480 Loss: 3.1286
+Step: 15500 Loss: 0.5295
+Step: 15520 Loss: 1.0056
+14.18fps
+Step: 15540 Loss: 0.2838
+Step: 15560 Loss: 1.0521
+Step: 15580 Loss: 1.7352
+Step: 15600 Loss: 2.3378
+14.19fps
+Step: 15620 Loss: 2.3018
+Step: 15640 Loss: 1.2939
+Step: 15660 Loss: 1.5493
+Step: 15680 Loss: 2.6393
+14.20fps
+Step: 15700 Loss: 2.0086
+Step: 15720 Loss: 3.6880
+Step: 15740 Loss: 1.5446
+Step: 15760 Loss: 1.5472
+14.20fps
+Step: 15780 Loss: 2.5630
+Step: 15800 Loss: 1.6580
+Step: 15820 Loss: 1.3240
+Step: 15840 Loss: 0.9850
+14.20fps
+Step: 15860 Loss: 1.3854
+Step: 15880 Loss: 1.4250
+Step: 15900 Loss: 1.0697
+Step: 15920 Loss: 1.1179
+14.19fps
+Step: 15940 Loss: 1.9647
+Step: 15960 Loss: 2.3154
+Step: 15980 Loss: 1.7817
+Step: 16000 Loss: 2.1577
+14.18fps
+Step: 16020 Loss: 2.8278
+Step: 16040 Loss: 2.1655
+Step: 16060 Loss: 0.7954
+Step: 16080 Loss: 0.9702
+14.19fps
+Step: 16100 Loss: 0.2796
+Step: 16120 Loss: 1.0457
+Step: 16140 Loss: 3.0353
+Step: 16160 Loss: 3.0347
+14.20fps
+Step: 16180 Loss: 3.2363
+Step: 16200 Loss: 0.4460
+Step: 16220 Loss: 2.5734
+Step: 16240 Loss: 1.0227
+14.20fps
+Step: 16260 Loss: 1.4690
+Step: 16280 Loss: 3.5410
+Step: 16300 Loss: 2.1334
+Step: 16320 Loss: 1.5221
+14.20fps
+Step: 16340 Loss: 2.8251
+Step: 16360 Loss: 3.9522
+Step: 16380 Loss: 3.6095
+Step: 16400 Loss: 2.3810
+14.18fps
+Step: 16420 Loss: 3.2214
+Step: 16440 Loss: 1.0691
+Step: 16460 Loss: 0.5724
+Step: 16480 Loss: 2.2773
+14.18fps
+Step: 16500 Loss: 3.8872
+Step: 16520 Loss: 2.7734
+Step: 16540 Loss: 1.1592
+Step: 16560 Loss: 4.0745
+14.19fps
+Step: 16580 Loss: 1.8438
+Step: 16600 Loss: 3.8680
+Step: 16620 Loss: 0.7326
+Step: 16640 Loss: 1.3644
+14.19fps
+Step: 16660 Loss: 1.7251
+Step: 16680 Loss: 2.3436
+Step: 16700 Loss: 2.2315
+Step: 16720 Loss: 1.4180
+14.20fps
+Step: 16740 Loss: 1.1474
+Step: 16760 Loss: 2.9447
+Step: 16780 Loss: 0.9462
+Step: 16800 Loss: 0.6940
+14.20fps
+Step: 16820 Loss: 1.0312
+Step: 16840 Loss: 1.2835
+Step: 16860 Loss: 0.8026
+Step: 16880 Loss: 0.8876
+14.18fps
+Step: 16900 Loss: 1.0821
+Step: 16920 Loss: 2.9648
+Step: 16940 Loss: 2.4713
+Step: 16960 Loss: 1.8799
+14.18fps
+Step: 16980 Loss: 1.4651
+Step: 17000 Loss: 6.4904
+Step: 17020 Loss: 3.2017
+Step: 17040 Loss: 1.3313
+14.19fps
+Step: 17060 Loss: 3.0889
+Step: 17080 Loss: 1.2673
+Step: 17100 Loss: 1.0654
+Step: 17120 Loss: 2.3895
+14.19fps
+Step: 17140 Loss: 2.2323
+Step: 17160 Loss: 1.0677
+Step: 17180 Loss: 0.8058
+Step: 17200 Loss: 5.6554
+14.19fps
+Step: 17220 Loss: 0.9598
+Step: 17240 Loss: 3.5510
+Step: 17260 Loss: 2.0796
+Step: 17280 Loss: 1.2545
+14.19fps
+Step: 17300 Loss: 0.8705
+Step: 17320 Loss: 1.1861
+Step: 17340 Loss: 2.3458
+Step: 17360 Loss: 1.9579
+14.20fps
+Step: 17380 Loss: 2.1996
+Step: 17400 Loss: 2.2940
+Step: 17420 Loss: 2.2870
+Step: 17440 Loss: 4.2382
+14.17fps
+Step: 17460 Loss: 4.3482
+Step: 17480 Loss: 3.5456
+Step: 17500 Loss: 1.1896
+Step: 17520 Loss: 0.5974
+14.18fps
+Step: 17540 Loss: 1.3302
+Step: 17560 Loss: 1.8215
+Step: 17580 Loss: 2.4173
+Step: 17600 Loss: 4.7724
+14.18fps
+Step: 17620 Loss: 3.3203
+Step: 17640 Loss: 3.4568
+Step: 17660 Loss: 1.4836
+Step: 17680 Loss: 0.4514
+14.19fps
+Step: 17700 Loss: 2.4621
+Step: 17720 Loss: 2.9013
+Step: 17740 Loss: 3.9607
+Step: 17760 Loss: 2.0215
+14.20fps
+Step: 17780 Loss: 2.5265
+Step: 17800 Loss: 2.2681
+Step: 17820 Loss: 2.8531
+Step: 17840 Loss: 1.0208
+14.20fps
+Step: 17860 Loss: 5.8818
+Step: 17880 Loss: 1.8581
+Step: 17900 Loss: 1.8056
+Step: 17920 Loss: 1.2203
+14.20fps
+Step: 17940 Loss: 3.0230
+Step: 17960 Loss: 0.9561
+Step: 17980 Loss: 2.4867
+Step: 18000 Loss: 1.3977
+14.18fps
+Step: 18020 Loss: 2.2182
+Step: 18040 Loss: 2.4886
+Step: 18060 Loss: 1.4199
+Step: 18080 Loss: 4.0648
+14.19fps
+Step: 18100 Loss: 0.9651
+Step: 18120 Loss: 1.0363
+Step: 18140 Loss: 2.4292
+Step: 18160 Loss: 2.5514
+14.19fps
+Step: 18180 Loss: 1.9641
+Step: 18200 Loss: 0.9537
+Step: 18220 Loss: 1.6148
+Step: 18240 Loss: 1.1753
+14.19fps
+Step: 18260 Loss: 1.1956
+Step: 18280 Loss: 0.9501
+Step: 18300 Loss: 2.9273
+Step: 18320 Loss: 2.9763
+14.20fps
+Step: 18340 Loss: 0.6761
+Step: 18360 Loss: 2.2141
+Step: 18380 Loss: 0.8826
+Step: 18400 Loss: 4.0662
+14.20fps
+Step: 18420 Loss: 2.4790
+Step: 18440 Loss: 1.3980
+Step: 18460 Loss: 1.6631
+Step: 18480 Loss: 3.0753
+14.20fps
+Step: 18500 Loss: 1.5909
+Step: 18520 Loss: 1.8116
+Step: 18540 Loss: 0.7283
+Step: 18560 Loss: 1.3829
+14.19fps
+Step: 18580 Loss: 1.2140
+Step: 18600 Loss: 1.6788
+Step: 18620 Loss: 4.8220
+Step: 18640 Loss: 1.7315
+14.19fps
+Step: 18660 Loss: 0.4343
+Step: 18680 Loss: 1.5975
+Step: 18700 Loss: 2.3208
+Step: 18720 Loss: 2.8446
+14.20fps
+Step: 18740 Loss: 1.9102
+Step: 18760 Loss: 2.0770
+Step: 18780 Loss: 2.1035
+Step: 18800 Loss: 1.0647
+14.20fps
+Step: 18820 Loss: 2.6636
+Step: 18840 Loss: 0.7008
+Step: 18860 Loss: 2.9616
+Step: 18880 Loss: 3.3925
+14.20fps
+Step: 18900 Loss: 1.9753
+Step: 18920 Loss: 2.5814
+Step: 18940 Loss: 1.9741
+Step: 18960 Loss: 1.2388
+14.19fps
+Step: 18980 Loss: 0.4390
+Step: 19000 Loss: 4.3483
+Step: 19020 Loss: 2.2788
+Step: 19040 Loss: 1.5298
+14.18fps
+Step: 19060 Loss: 2.1393
+Step: 19080 Loss: 2.4251
+Step: 19100 Loss: 2.5705
+Step: 19120 Loss: 1.9193
+14.18fps
+Step: 19140 Loss: 1.0491
+Step: 19160 Loss: 1.2933
+Step: 19180 Loss: 1.6536
+Step: 19200 Loss: 2.2526
+14.19fps
+Step: 19220 Loss: 2.0872
+Step: 19240 Loss: 2.1197
+Step: 19260 Loss: 3.6872
+Step: 19280 Loss: 2.1958
+14.19fps
+Step: 19300 Loss: 2.2372
+Step: 19320 Loss: 2.7537
+Step: 19340 Loss: 1.2053
+Step: 19360 Loss: 3.3705
+14.19fps
+Step: 19380 Loss: 0.5402
+Step: 19400 Loss: 1.8511
+Step: 19420 Loss: 3.0542
+Step: 19440 Loss: 1.7034
+14.19fps
+Step: 19460 Loss: 1.7692
+Step: 19480 Loss: 1.1884
+Step: 19500 Loss: 1.3714
+Step: 19520 Loss: 1.1105
+14.18fps
+Step: 19540 Loss: 2.1987
+Step: 19560 Loss: 4.4483
+Step: 19580 Loss: 1.9724
+Step: 19600 Loss: 2.5389
+14.18fps
+Step: 19620 Loss: 1.5949
+Step: 19640 Loss: 2.0178
+Step: 19660 Loss: 1.7856
+Step: 19680 Loss: 1.6839
+14.18fps
+Step: 19700 Loss: 1.4342
+Step: 19720 Loss: 2.5161
+Step: 19740 Loss: 3.1187
+Step: 19760 Loss: 0.8676
+14.16fps
+Step: 19780 Loss: 0.8099
+Step: 19800 Loss: 1.0146
+Step: 19820 Loss: 2.2877
+Step: 19840 Loss: 2.8137
+14.17fps
+Step: 19860 Loss: 2.2181
+Step: 19880 Loss: 0.9676
+Step: 19900 Loss: 1.0980
+Step: 19920 Loss: 2.3499
+14.17fps
+Step: 19940 Loss: 0.6926
+Step: 19960 Loss: 1.0534
+Step: 19980 Loss: 3.3139
+Step: 20000 Loss: 1.7001
+14.16fps
+Step: 20020 Loss: 3.0173
+Step: 20040 Loss: 1.3459
+Step: 20060 Loss: 1.1141
+Step: 20080 Loss: 2.6477
+14.15fps
+Step: 20100 Loss: 1.8155
+Step: 20120 Loss: 3.1454
+Step: 20140 Loss: 1.6695
+Step: 20160 Loss: 1.5182
+14.16fps
+Step: 20180 Loss: 1.6976
+Step: 20200 Loss: 2.3980
+Evaluating model
+
+Errors:
+	wall IoU accuracy = 13.85 %
+	building;edifice IoU accuracy = 36.66 %
+	sky IoU accuracy = 33.70 %
+	floor;flooring IoU accuracy = 62.14 %
+	tree IoU accuracy = 15.58 %
+	ceiling IoU accuracy = 53.37 %
+	road;route IoU accuracy = 44.18 %
+	bed IoU accuracy = 27.47 %
+	windowpane;window IoU accuracy = 0.09 %
+	grass IoU accuracy = 24.53 %
+	cabinet IoU accuracy = 48.91 %
+	sidewalk;pavement IoU accuracy = 1.07 %
+	person;individual;someone;somebody;mortal;soul IoU accuracy = 14.95 %
+	earth;ground IoU accuracy = 39.01 %
+	door;double;door IoU accuracy = 9.99 %
+	table IoU accuracy = 0.01 %
+	mountain;mount IoU accuracy = 0.02 %
+	plant;flora;plant;life IoU accuracy = 3.63 %
+	curtain;drape;drapery;mantle;pall IoU accuracy = 21.16 %
+	chair IoU accuracy = 4.14 %
+	car;auto;automobile;machine;motorcar IoU accuracy = 0.21 %
+	water IoU accuracy = 27.94 %
+	painting;picture IoU accuracy = 13.58 %
+	sofa;couch;lounge IoU accuracy = 17.63 %
+	shelf IoU accuracy = 0.16 %
+	house IoU accuracy = 0.00 %
+	sea IoU accuracy = 0.00 %
+	mirror IoU accuracy = 10.46 %
+	rug;carpet;carpeting IoU accuracy = 0.00 %
+	field IoU accuracy = 0.00 %
+	armchair IoU accuracy = 1.24 %
+	seat IoU accuracy = 0.00 %
+	fence;fencing IoU accuracy = 0.00 %
+	desk IoU accuracy = 0.00 %
+	rock;stone IoU accuracy = 0.00 %
+	wardrobe;closet;press IoU accuracy = 0.00 %
+	lamp IoU accuracy = 0.00 %
+	bathtub;bathing;tub;bath;tub IoU accuracy = 0.35 %
+	railing;rail IoU accuracy = 0.00 %
+	cushion IoU accuracy = 0.00 %
+	base;pedestal;stand IoU accuracy = 0.19 %
+	box IoU accuracy = 0.00 %
+	column;pillar IoU accuracy = 0.00 %
+	signboard;sign IoU accuracy = 0.00 %
+	chest;of;drawers;chest;bureau;dresser IoU accuracy = 0.00 %
+	counter IoU accuracy = 0.00 %
+	sand IoU accuracy = 0.00 %
+	sink IoU accuracy = 0.00 %
+	skyscraper IoU accuracy = 0.00 %
+	fireplace;hearth;open;fireplace IoU accuracy = 0.00 %
+	refrigerator;icebox IoU accuracy = 0.00 %
+	grandstand;covered;stand IoU accuracy = 0.00 %
+	path IoU accuracy = 0.00 %
+	stairs;steps IoU accuracy = 0.00 %
+	runway IoU accuracy = 0.00 %
+	case;display;case;showcase;vitrine IoU accuracy = 0.00 %
+	pool;table;billiard;table;snooker;table IoU accuracy = 0.00 %
+	pillow IoU accuracy = 0.00 %
+	screen;door;screen IoU accuracy = 0.00 %
+	stairway;staircase IoU accuracy = 0.00 %
+	river IoU accuracy = 0.00 %
+	bridge;span IoU accuracy = 0.00 %
+	bookcase IoU accuracy = 0.00 %
+	blind;screen IoU accuracy = 0.00 %
+	coffee;table;cocktail;table IoU accuracy = 0.00 %
+	toilet;can;commode;crapper;pot;potty;stool;throne IoU accuracy = 0.00 %
+	flower IoU accuracy = 0.00 %
+	book IoU accuracy = 0.00 %
+	hill IoU accuracy = 0.00 %
+	bench IoU accuracy = 0.00 %
+	countertop IoU accuracy = 0.00 %
+	stove;kitchen;stove;range;kitchen;range;cooking;stove IoU accuracy = 0.00 %
+	palm;palm;tree IoU accuracy = 0.00 %
+	kitchen;island IoU accuracy = 0.00 %
+	computer;computing;machine;computing;device;data;processor;electronic;computer;information;processing;system IoU accuracy = 0.00 %
+	swivel;chair IoU accuracy = 0.00 %
+	boat IoU accuracy = 0.00 %
+	bar IoU accuracy = 0.00 %
+	arcade;machine IoU accuracy = 0.00 %
+	hovel;hut;hutch;shack;shanty IoU accuracy = 0.00 %
+	bus;autobus;coach;charabanc;double-decker;jitney;motorbus;motorcoach;omnibus;passenger;vehicle IoU accuracy = 0.00 %
+	towel IoU accuracy = 0.00 %
+	light;light;source IoU accuracy = 0.00 %
+	truck;motortruck IoU accuracy = 0.02 %
+	tower IoU accuracy = 0.00 %
+	chandelier;pendant;pendent IoU accuracy = 0.00 %
+	awning;sunshade;sunblind IoU accuracy = 0.00 %
+	streetlight;street;lamp IoU accuracy = 0.00 %
+	booth;cubicle;stall;kiosk IoU accuracy = 0.00 %
+	television;television;receiver;television;set;tv;tv;set;idiot;box;boob;tube;telly;goggle;box IoU accuracy = 0.00 %
+	airplane;aeroplane;plane IoU accuracy = 0.00 %
+	dirt;track IoU accuracy = 0.00 %
+	apparel;wearing;apparel;dress;clothes IoU accuracy = 0.00 %
+	pole IoU accuracy = 0.00 %
+	land;ground;soil IoU accuracy = 0.00 %
+	bannister;banister;balustrade;balusters;handrail IoU accuracy = 0.00 %
+	escalator;moving;staircase;moving;stairway IoU accuracy = 0.00 %
+	ottoman;pouf;pouffe;puff;hassock IoU accuracy = 0.00 %
+	bottle IoU accuracy = 0.00 %
+	buffet;counter;sideboard IoU accuracy = 0.00 %
+	poster;posting;placard;notice;bill;card IoU accuracy = 0.00 %
+	stage IoU accuracy = 0.00 %
+	van IoU accuracy = 0.00 %
+	ship IoU accuracy = 0.00 %
+	fountain IoU accuracy = 0.00 %
+	conveyer;belt;conveyor;belt;conveyer;conveyor;transporter IoU accuracy = 0.00 %
+	canopy IoU accuracy = 0.00 %
+	washer;automatic;washer;washing;machine IoU accuracy = 0.00 %
+	plaything;toy IoU accuracy = 0.00 %
+	swimming;pool;swimming;bath;natatorium IoU accuracy = 0.00 %
+	stool IoU accuracy = 0.00 %
+	barrel;cask IoU accuracy = 0.00 %
+	basket;handbasket IoU accuracy = 0.00 %
+	waterfall;falls IoU accuracy = 0.00 %
+	tent;collapsible;shelter IoU accuracy = 0.00 %
+	bag IoU accuracy = 0.00 %
+	minibike;motorbike IoU accuracy = 0.00 %
+	cradle IoU accuracy = 0.00 %
+	oven IoU accuracy = 0.00 %
+	ball IoU accuracy = 0.00 %
+	food;solid;food IoU accuracy = 0.00 %
+	step;stair IoU accuracy = 0.00 %
+	tank;storage;tank IoU accuracy = 0.00 %
+	trade;name;brand;name;brand;marque IoU accuracy = 0.00 %
+	microwave;microwave;oven IoU accuracy = 0.00 %
+	pot;flowerpot IoU accuracy = 0.00 %
+	animal;animate;being;beast;brute;creature;fauna IoU accuracy = 0.00 %
+	bicycle;bike;wheel;cycle IoU accuracy = 0.00 %
+	lake IoU accuracy = 0.00 %
+	dishwasher;dish;washer;dishwashing;machine IoU accuracy = 0.00 %
+	screen;silver;screen;projection;screen IoU accuracy = 0.00 %
+	blanket;cover IoU accuracy = 0.00 %
+	sculpture IoU accuracy = 0.00 %
+	hood;exhaust;hood IoU accuracy = 0.00 %
+	sconce IoU accuracy = 0.00 %
+	vase IoU accuracy = 0.00 %
+	traffic;light;traffic;signal;stoplight IoU accuracy = 0.00 %
+	tray IoU accuracy = 0.00 %
+	ashcan;trash;can;garbage;can;wastebin;ash;bin;ash-bin;ashbin;dustbin;trash;barrel;trash;bin IoU accuracy = 0.00 %
+	fan IoU accuracy = 0.00 %
+	pier;wharf;wharfage;dock IoU accuracy = 0.00 %
+	crt;screen IoU accuracy = 0.00 %
+	plate IoU accuracy = 0.00 %
+	monitor;monitoring;device IoU accuracy = 0.00 %
+	bulletin;board;notice;board IoU accuracy = 0.00 %
+	shower IoU accuracy = 0.00 %
+	radiator IoU accuracy = 0.00 %
+	glass;drinking;glass IoU accuracy = 0.00 %
+	clock IoU accuracy = 0.00 %
+	flag IoU accuracy = 0.00 %
+IoU mean class accuracy -> TP / (TP+FN+FP) = 3.51 %
+mean class recall -> TP / (TP+FN) = 5.45 %
+mean class precision -> TP / (TP+FP) = 10.01 %
+pixel accuracy = 40.34 %
+Best mIoU: 3.51% (epoch 0)
+Elapsed time: 0:24:52.522415
+LR: 3.9994e-04
+LR: 9.9984e-05
+Epoch: 1 / 249
+Step: 0 Loss: 2.0174
+Step: 20 Loss: 1.6013
+Step: 40 Loss: 0.9291
+Step: 60 Loss: 3.9753
+Step: 80 Loss: 0.9272
+10.62fps
+Step: 100 Loss: 1.5822
+Step: 120 Loss: 2.8559
+Step: 140 Loss: 0.8587
+Step: 160 Loss: 2.7116
+12.41fps
+Step: 180 Loss: 1.3632
+Step: 200 Loss: 1.0030
+Step: 220 Loss: 1.9410
+Step: 240 Loss: 3.3474
+13.19fps
+Step: 260 Loss: 0.8541
+Step: 280 Loss: 2.1189
+Step: 300 Loss: 1.5316
+Step: 320 Loss: 2.4423
+13.40fps
+Step: 340 Loss: 4.6012
+Step: 360 Loss: 2.8033
+Step: 380 Loss: 0.6556
+Step: 400 Loss: 2.0815
+12.87fps
+Step: 420 Loss: 3.6749
+Step: 440 Loss: 0.8195
+Step: 460 Loss: 2.4201
+Step: 480 Loss: 2.4956
+13.26fps
+Step: 500 Loss: 1.3359
+Step: 520 Loss: 0.8037
+Step: 540 Loss: 0.6929
+Step: 560 Loss: 1.0032
+13.48fps
+Step: 580 Loss: 2.3342
+Step: 600 Loss: 2.6617
+Step: 620 Loss: 1.1254
+Step: 640 Loss: 2.4909
+13.55fps
+Step: 660 Loss: 2.1254
+Step: 680 Loss: 1.6913
+Step: 700 Loss: 2.4257
+Step: 720 Loss: 1.6332
+13.22fps
+Step: 740 Loss: 1.5248
+Step: 760 Loss: 0.6977
+Step: 780 Loss: 1.1590
+Step: 800 Loss: 0.5370
+13.42fps
+Step: 820 Loss: 2.4994
+Step: 840 Loss: 3.3510
+Step: 860 Loss: 1.4594
+Step: 880 Loss: 0.7804
+13.55fps
+Step: 900 Loss: 1.2490
+Step: 920 Loss: 1.8050
+Step: 940 Loss: 3.5439
+Step: 960 Loss: 3.7284
+13.55fps
+Step: 980 Loss: 1.7930
+Step: 1000 Loss: 2.2063
+Step: 1020 Loss: 0.4628
+Step: 1040 Loss: 0.9277
+13.35fps
+Step: 1060 Loss: 1.3411
+Step: 1080 Loss: 1.1154
+Step: 1100 Loss: 1.0620
+Step: 1120 Loss: 0.6048
+13.46fps
+Step: 1140 Loss: 1.3670
+Step: 1160 Loss: 1.5973
+Step: 1180 Loss: 2.0852
+Step: 1200 Loss: 3.1914
+13.52fps
+Step: 1220 Loss: 3.2820
+Step: 1240 Loss: 0.8208
+Step: 1260 Loss: 1.4231
+Step: 1280 Loss: 1.9178
+13.38fps
+Step: 1300 Loss: 2.2709
+Step: 1320 Loss: 0.7276
+Step: 1340 Loss: 0.8066
+Step: 1360 Loss: 0.9406
+13.42fps
+Step: 1380 Loss: 1.1391
+Step: 1400 Loss: 1.1501
+Step: 1420 Loss: 1.1551
+Step: 1440 Loss: 0.8487
+13.50fps
+Step: 1460 Loss: 1.4402
+Step: 1480 Loss: 2.3080
+Step: 1500 Loss: 0.4978
+Step: 1520 Loss: 1.4255
+13.57fps
+Step: 1540 Loss: 0.5371
+Step: 1560 Loss: 3.0074
+Step: 1580 Loss: 3.1837
+Step: 1600 Loss: 2.3981
+13.50fps
+Step: 1620 Loss: 0.8431
+Step: 1640 Loss: 3.0900
+Step: 1660 Loss: 1.0421
+Step: 1680 Loss: 1.3347
+13.48fps
+Step: 1700 Loss: 1.5552
+Step: 1720 Loss: 1.2898
+Step: 1740 Loss: 1.6836
+Step: 1760 Loss: 3.0152
+13.54fps
+Step: 1780 Loss: 3.2368
+Step: 1800 Loss: 0.5503
+Step: 1820 Loss: 1.4732
+Step: 1840 Loss: 2.4151
+13.61fps
+Step: 1860 Loss: 1.1658
+Step: 1880 Loss: 1.8946
+Step: 1900 Loss: 3.6565
+Step: 1920 Loss: 2.7278
+13.64fps
+Step: 1940 Loss: 2.5467
+Step: 1960 Loss: 1.5103
+Step: 1980 Loss: 0.6399
+Step: 2000 Loss: 3.1244
+13.52fps
+Step: 2020 Loss: 2.2485
+Step: 2040 Loss: 0.9278
+Step: 2060 Loss: 1.7668
+Step: 2080 Loss: 2.4141
+13.57fps
+Step: 2100 Loss: 1.2409
+Step: 2120 Loss: 2.1009
+Step: 2140 Loss: 0.3925
+Step: 2160 Loss: 5.5007
+13.62fps
+Step: 2180 Loss: 1.0334
+Step: 2200 Loss: 1.9897
+Step: 2220 Loss: 0.6283
+Step: 2240 Loss: 2.8158
+13.67fps
+Step: 2260 Loss: 2.2034
+Step: 2280 Loss: 1.0359
+Step: 2300 Loss: 2.1520
+Step: 2320 Loss: 1.3184
+13.66fps
+Step: 2340 Loss: 0.6194
+Step: 2360 Loss: 0.7865
+Step: 2380 Loss: 1.4723
+Step: 2400 Loss: 2.2468
+13.58fps
+Step: 2420 Loss: 1.7358
+Step: 2440 Loss: 3.4378
+Step: 2460 Loss: 1.4360
+Step: 2480 Loss: 0.9875
+13.63fps
+Step: 2500 Loss: 1.0861
+Step: 2520 Loss: 1.1206
+Step: 2540 Loss: 1.7842
+Step: 2560 Loss: 2.1170
+13.68fps
+Step: 2580 Loss: 1.5979
+Step: 2600 Loss: 2.9064
+Step: 2620 Loss: 0.9767
+Step: 2640 Loss: 1.3428
+13.72fps
+Step: 2660 Loss: 1.3130
+Step: 2680 Loss: 2.5976
+Step: 2700 Loss: 1.5702
+Step: 2720 Loss: 2.1877
+13.74fps
+Step: 2740 Loss: 0.4631
+Step: 2760 Loss: 3.5104
+Step: 2780 Loss: 1.1881
+Step: 2800 Loss: 1.4588
+13.66fps
+Step: 2820 Loss: 3.7993
+Step: 2840 Loss: 1.9765
+Step: 2860 Loss: 1.6534
+Step: 2880 Loss: 1.8546
+13.68fps
+Step: 2900 Loss: 1.7505
+Step: 2920 Loss: 3.2872
+Step: 2940 Loss: 1.6107
+Step: 2960 Loss: 2.0284
+13.72fps
+Step: 2980 Loss: 1.5274
+Step: 3000 Loss: 2.2703
+Step: 3020 Loss: 2.4174
+Step: 3040 Loss: 2.7000
+13.76fps
+Step: 3060 Loss: 2.4062
+Step: 3080 Loss: 0.6337
+Step: 3100 Loss: 1.2427
+Step: 3120 Loss: 1.1442
+13.77fps
+Step: 3140 Loss: 1.1875
+Step: 3160 Loss: 4.8707
+Step: 3180 Loss: 1.5901
+Step: 3200 Loss: 1.0494
+13.73fps
+Step: 3220 Loss: 1.8886
+Step: 3240 Loss: 0.4136
+Step: 3260 Loss: 1.5096
+Step: 3280 Loss: 2.6122
+13.69fps
+Step: 3300 Loss: 1.7390
+Step: 3320 Loss: 1.2759
+Step: 3340 Loss: 3.7179
+Step: 3360 Loss: 2.9634
+13.73fps
+Step: 3380 Loss: 3.3544
+Step: 3400 Loss: 3.3038
+Step: 3420 Loss: 3.5162
+Step: 3440 Loss: 1.3269
+13.75fps
+Step: 3460 Loss: 1.1236
+Step: 3480 Loss: 0.7237
+Step: 3500 Loss: 1.1479
+Step: 3520 Loss: 1.3936
+13.77fps
+Step: 3540 Loss: 1.3887
+Step: 3560 Loss: 1.0013
+Step: 3580 Loss: 1.4560
+Step: 3600 Loss: 2.8342
+13.71fps
+Step: 3620 Loss: 0.5007
+Step: 3640 Loss: 1.6503
+Step: 3660 Loss: 2.3323
+Step: 3680 Loss: 2.5851
+13.73fps
+Step: 3700 Loss: 1.5327
+Step: 3720 Loss: 1.9924
+Step: 3740 Loss: 3.0004
+Step: 3760 Loss: 1.5589
+13.76fps
+Step: 3780 Loss: 0.5419
+Step: 3800 Loss: 1.4320
+Step: 3820 Loss: 1.8850
+Step: 3840 Loss: 3.0108
+13.79fps
+Step: 3860 Loss: 1.4404
+Step: 3880 Loss: 1.9310
+Step: 3900 Loss: 0.7734
+Step: 3920 Loss: 0.7238
+13.82fps
+Step: 3940 Loss: 4.4272
+Step: 3960 Loss: 0.9932
+Step: 3980 Loss: 1.9981
+Step: 4000 Loss: 1.3665
+13.81fps
+Step: 4020 Loss: 0.7373
+Step: 4040 Loss: 1.9013
+Step: 4060 Loss: 1.8610
+Step: 4080 Loss: 2.8355
+13.75fps
+Step: 4100 Loss: 2.9700
+Step: 4120 Loss: 1.5942
+Step: 4140 Loss: 2.0066
+Step: 4160 Loss: 0.8688
+13.78fps
+Step: 4180 Loss: 1.4314
+Step: 4200 Loss: 0.6895
+Step: 4220 Loss: 2.2353
+Step: 4240 Loss: 1.1259
+13.81fps
+Step: 4260 Loss: 3.1255
+Step: 4280 Loss: 1.3258
+Step: 4300 Loss: 1.5871
+Step: 4320 Loss: 1.0108
+13.84fps
+Step: 4340 Loss: 3.4278
+Step: 4360 Loss: 3.0748
+Step: 4380 Loss: 3.2415
+Step: 4400 Loss: 2.1889
+13.86fps
+Step: 4420 Loss: 1.3779
+Step: 4440 Loss: 1.5954
+Step: 4460 Loss: 0.8839
+Step: 4480 Loss: 1.1478
+13.82fps
+Step: 4500 Loss: 1.4583
+Step: 4520 Loss: 1.1005
+Step: 4540 Loss: 1.5001
+Step: 4560 Loss: 1.2465
+13.80fps
+Step: 4580 Loss: 2.6514
+Step: 4600 Loss: 1.4307
+Step: 4620 Loss: 1.7333
+Step: 4640 Loss: 3.9455
+13.83fps
+Step: 4660 Loss: 1.4666
+Step: 4680 Loss: 1.9348
+Step: 4700 Loss: 4.3104
+Step: 4720 Loss: 1.8369
+13.85fps
+Step: 4740 Loss: 0.8773
+Step: 4760 Loss: 0.4284
+Step: 4780 Loss: 1.8677
+Step: 4800 Loss: 0.4923
+13.86fps
+Step: 4820 Loss: 1.5207
+Step: 4840 Loss: 3.2623
+Step: 4860 Loss: 0.9646
+Step: 4880 Loss: 2.5139
+13.88fps
+Step: 4900 Loss: 1.4643
+Step: 4920 Loss: 3.1803
+Step: 4940 Loss: 1.1449
+Step: 4960 Loss: 0.5027
+13.90fps
+Step: 4980 Loss: 2.0755
+Step: 5000 Loss: 2.4283
+Step: 5020 Loss: 0.6322
+Step: 5040 Loss: 1.1583
+13.90fps
+Step: 5060 Loss: 3.4111
+Step: 5080 Loss: 1.6452
+Step: 5100 Loss: 0.5677
+Step: 5120 Loss: 2.0577
+13.85fps
+Step: 5140 Loss: 0.7263
+Step: 5160 Loss: 1.2322
+Step: 5180 Loss: 1.6759
+Step: 5200 Loss: 2.5372
+13.87fps
+Step: 5220 Loss: 2.1047
+Step: 5240 Loss: 3.0891
+Step: 5260 Loss: 2.1185
+Step: 5280 Loss: 0.5248
+13.89fps
+Step: 5300 Loss: 1.4076
+Step: 5320 Loss: 2.0987
+Step: 5340 Loss: 1.2707
+Step: 5360 Loss: 1.2942
+13.92fps
+Step: 5380 Loss: 6.8088
+Step: 5400 Loss: 1.3359
+Step: 5420 Loss: 1.8103
+Step: 5440 Loss: 0.8849
+13.94fps
+Step: 5460 Loss: 2.2742
+Step: 5480 Loss: 1.5111
+Step: 5500 Loss: 3.6968
+Step: 5520 Loss: 1.1245
+13.95fps
+Step: 5540 Loss: 2.9709
+Step: 5560 Loss: 1.3399
+Step: 5580 Loss: 0.7328
+Step: 5600 Loss: 2.5144
+13.96fps
+Step: 5620 Loss: 2.5985
+Step: 5640 Loss: 2.3903
+Step: 5660 Loss: 2.3852
+Step: 5680 Loss: 3.4061
+13.90fps
+Step: 5700 Loss: 2.0948
+Step: 5720 Loss: 2.4669
+Step: 5740 Loss: 1.0729
+Step: 5760 Loss: 1.7156
+13.92fps
+Step: 5780 Loss: 1.9794
+Step: 5800 Loss: 2.6446
+Step: 5820 Loss: 4.7678
+Step: 5840 Loss: 2.3092
+13.94fps
+Step: 5860 Loss: 0.8874
+Step: 5880 Loss: 2.4610
+Step: 5900 Loss: 2.3285
+Step: 5920 Loss: 2.7955
+13.96fps
+Step: 5940 Loss: 0.6462
+Step: 5960 Loss: 2.0278
+Step: 5980 Loss: 0.4974
+Step: 6000 Loss: 1.6711
+13.98fps
+Step: 6020 Loss: 2.3246
+Step: 6040 Loss: 1.0927
+Step: 6060 Loss: 0.6282
+Step: 6080 Loss: 1.7504
+14.00fps
+Step: 6100 Loss: 0.8427
+Step: 6120 Loss: 1.7481
+Step: 6140 Loss: 1.3470
+Step: 6160 Loss: 0.8492
+14.00fps
+Step: 6180 Loss: 1.2949
+Step: 6200 Loss: 3.1667
+Step: 6220 Loss: 1.6514
+Step: 6240 Loss: 1.0308
+13.95fps
+Step: 6260 Loss: 1.6147
+Step: 6280 Loss: 2.4322
+Step: 6300 Loss: 2.1059
+Step: 6320 Loss: 0.8295
+13.97fps
+Step: 6340 Loss: 2.5351
+Step: 6360 Loss: 2.6588
+Step: 6380 Loss: 2.3111
+Step: 6400 Loss: 0.9715
+13.98fps
+Step: 6420 Loss: 1.4457
+Step: 6440 Loss: 1.2766
+Step: 6460 Loss: 2.4558
+Step: 6480 Loss: 2.1710
+14.00fps
+Step: 6500 Loss: 2.1126
+Step: 6520 Loss: 2.6956
+Step: 6540 Loss: 3.2577
+Step: 6560 Loss: 1.2402
+14.02fps
+Step: 6580 Loss: 1.2479
+Step: 6600 Loss: 0.8863
+Step: 6620 Loss: 1.3254
+Step: 6640 Loss: 0.8585
+14.02fps
+Step: 6660 Loss: 2.4109
+Step: 6680 Loss: 1.6506
+Step: 6700 Loss: 3.2998
+Step: 6720 Loss: 1.6889
+13.97fps
+Step: 6740 Loss: 1.6335
+Step: 6760 Loss: 1.1594
+Step: 6780 Loss: 0.8354
+Step: 6800 Loss: 3.0168
+13.97fps
+Step: 6820 Loss: 2.7285
+Step: 6840 Loss: 1.0581
+Step: 6860 Loss: 1.0563
+Step: 6880 Loss: 2.0893
+13.98fps
+Step: 6900 Loss: 2.9538
+Step: 6920 Loss: 1.7661
+Step: 6940 Loss: 1.0867
+Step: 6960 Loss: 1.0913
+14.00fps
+Step: 6980 Loss: 1.8233
+Step: 7000 Loss: 1.2744
+Step: 7020 Loss: 1.2368
+Step: 7040 Loss: 1.4301
+14.00fps
+Step: 7060 Loss: 2.0750
+Step: 7080 Loss: 2.2642
+Step: 7100 Loss: 1.9457
+Step: 7120 Loss: 2.4313
+14.00fps
+Step: 7140 Loss: 2.0742
+Step: 7160 Loss: 1.1010
+Step: 7180 Loss: 4.2613
+Step: 7200 Loss: 0.9771
+14.01fps
+Step: 7220 Loss: 1.9460
+Step: 7240 Loss: 0.8882
+Step: 7260 Loss: 3.0340
+Step: 7280 Loss: 1.1996
+14.01fps
+Step: 7300 Loss: 0.6949
+Step: 7320 Loss: 0.6549
+Step: 7340 Loss: 2.4490
+Step: 7360 Loss: 1.3298
+14.02fps
+Step: 7380 Loss: 3.8743
+Step: 7400 Loss: 3.2485
+Step: 7420 Loss: 1.7729
+Step: 7440 Loss: 1.4156
+14.02fps
+Step: 7460 Loss: 1.4999
+Step: 7480 Loss: 2.2271
+Step: 7500 Loss: 3.8159
+Step: 7520 Loss: 1.6918
+14.03fps
+Step: 7540 Loss: 1.5652
+Step: 7560 Loss: 1.2723
+Step: 7580 Loss: 1.2610
+Step: 7600 Loss: 1.8133
+14.04fps
+Step: 7620 Loss: 1.6825
+Step: 7640 Loss: 2.9955
+Step: 7660 Loss: 0.4020
+Step: 7680 Loss: 4.6600
+14.04fps
+Step: 7700 Loss: 1.1111
+Step: 7720 Loss: 2.3191
+Step: 7740 Loss: 0.6224
+Step: 7760 Loss: 1.4784
+14.05fps
+Step: 7780 Loss: 0.7794
+Step: 7800 Loss: 5.4351
+Step: 7820 Loss: 1.1540
+Step: 7840 Loss: 1.1252
+14.05fps
+Step: 7860 Loss: 1.8250
+Step: 7880 Loss: 0.8614
+Step: 7900 Loss: 0.8926
+Step: 7920 Loss: 2.4267
+14.06fps
+Step: 7940 Loss: 1.7904
+Step: 7960 Loss: 1.3912
+Step: 7980 Loss: 1.8357
+Step: 8000 Loss: 0.7769
+14.06fps
+Step: 8020 Loss: 1.6926
+Step: 8040 Loss: 1.7910
+Step: 8060 Loss: 1.3410
+Step: 8080 Loss: 1.7064
+14.07fps
+Step: 8100 Loss: 2.1115
+Step: 8120 Loss: 0.3875
+Step: 8140 Loss: 3.7100
+Step: 8160 Loss: 1.6697
+14.07fps
+Step: 8180 Loss: 1.8309
+Step: 8200 Loss: 2.0500
+Step: 8220 Loss: 3.2400
+Step: 8240 Loss: 0.2688
+14.08fps
+Step: 8260 Loss: 1.1202
+Step: 8280 Loss: 1.7710
+Step: 8300 Loss: 1.2505
+Step: 8320 Loss: 3.1179
+14.08fps
+Step: 8340 Loss: 2.9175
+Step: 8360 Loss: 1.1830
+Step: 8380 Loss: 0.9844
+Step: 8400 Loss: 2.1387
+14.09fps
+Step: 8420 Loss: 1.4082
+Step: 8440 Loss: 0.5336
+Step: 8460 Loss: 3.0565
+Step: 8480 Loss: 1.5226
+14.09fps
+Step: 8500 Loss: 0.3841
+Step: 8520 Loss: 1.3266
+Step: 8540 Loss: 2.9619
+Step: 8560 Loss: 1.1561
+14.09fps
+Step: 8580 Loss: 2.0810
+Step: 8600 Loss: 1.0413
+Step: 8620 Loss: 2.1697
+Step: 8640 Loss: 1.5541
+14.10fps
+Step: 8660 Loss: 2.2325
+Step: 8680 Loss: 2.0200
+Step: 8700 Loss: 1.7164
+Step: 8720 Loss: 1.5955
+14.10fps
+Step: 8740 Loss: 1.5170
+Step: 8760 Loss: 2.3157
+Step: 8780 Loss: 1.5319
+Step: 8800 Loss: 1.3133
+14.11fps
+Step: 8820 Loss: 3.7621
+Step: 8840 Loss: 2.9047
+Step: 8860 Loss: 2.1952
+Step: 8880 Loss: 0.6976
+14.11fps
+Step: 8900 Loss: 2.6107
+Step: 8920 Loss: 0.5532
+Step: 8940 Loss: 2.3950
+Step: 8960 Loss: 0.8850
+14.12fps
+Step: 8980 Loss: 3.0001
+Step: 9000 Loss: 0.8530
+Step: 9020 Loss: 4.2783
+Step: 9040 Loss: 2.7275
+14.12fps
+Step: 9060 Loss: 2.2083
+Step: 9080 Loss: 1.4851
+Step: 9100 Loss: 3.5733
+Step: 9120 Loss: 1.9556
+14.12fps
+Step: 9140 Loss: 2.4463
+Step: 9160 Loss: 3.5950
+Step: 9180 Loss: 0.7508
+Step: 9200 Loss: 2.9373
+14.13fps
+Step: 9220 Loss: 0.6183
+Step: 9240 Loss: 1.4429
+Step: 9260 Loss: 1.9488
+Step: 9280 Loss: 2.0034
+14.13fps
+Step: 9300 Loss: 2.6205
+Step: 9320 Loss: 1.1596
+Step: 9340 Loss: 1.6584
+Step: 9360 Loss: 1.7983
+14.14fps
+Step: 9380 Loss: 1.8076
+Step: 9400 Loss: 1.0416
+Step: 9420 Loss: 2.0014
+Step: 9440 Loss: 1.2372
+14.14fps
+Step: 9460 Loss: 2.5139
+Step: 9480 Loss: 1.8490
+Step: 9500 Loss: 1.1003
+Step: 9520 Loss: 1.9052
+14.14fps
+Step: 9540 Loss: 1.4912
+Step: 9560 Loss: 1.7898
+Step: 9580 Loss: 1.7606
+Step: 9600 Loss: 1.7084
+14.15fps
+Step: 9620 Loss: 1.0308
+Step: 9640 Loss: 0.5354
+Step: 9660 Loss: 1.8785
+Step: 9680 Loss: 0.9279
+14.15fps
+Step: 9700 Loss: 1.4994
+Step: 9720 Loss: 0.9463
+Step: 9740 Loss: 0.5689
+Step: 9760 Loss: 1.5957
+14.16fps
+Step: 9780 Loss: 1.8074
+Step: 9800 Loss: 2.9830
+Step: 9820 Loss: 1.9417

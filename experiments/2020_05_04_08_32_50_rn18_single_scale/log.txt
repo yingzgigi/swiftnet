@@ -1,0 +1,147 @@
+Elapsed time: 0:00:01.725593
+LR: 3.9998e-04
+LR: 9.9996e-05
+Epoch: 0 / 249
+Experiment dir: //home/hchen/Documents/yzh/swiftnet2/swiftnet/experiments/2020_05_04_08_32_50_rn18_single_scale
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210num labels ----- : 20210
+
+open images ------ ----- open images ------ ----- 
+
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
+num labels ----- : 20210
+open images ------ ----- 
