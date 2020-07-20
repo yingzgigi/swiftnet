@@ -16,11 +16,11 @@ from evaluation import StorePreds
 
 from models.util import get_n_params
 
-root = Path.home() / Path('Documents/yzh/swiftnet2/swiftnet/datasets/')
+root = Path.home() / Path('workspace/swiftnet_scene/datasets/')
 path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
-evaluating = False
+evaluating = True
 random_crop_size = 768
 
 scale = 1
