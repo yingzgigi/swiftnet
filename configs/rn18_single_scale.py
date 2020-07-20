@@ -21,7 +21,7 @@ path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
 evaluating = True
-random_crop_size = 768
+random_crop_size = 384 # 768 resolution for full cityscapes
 
 scale = 1
 mean = [73.15, 82.90, 72.3]
@@ -83,7 +83,7 @@ else:
     lr_min = 1e-6
     fine_tune_factor = 4
     weight_decay = 1e-4
-    epochs = 60 #250
+    epochs = 100 #250 for cityscapes
 
     optim_params = [
         {'params': model.random_init_params(), 'lr': lr, 'weight_decay': weight_decay},
