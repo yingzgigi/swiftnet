@@ -20,7 +20,7 @@ root = Path.home() / Path('Documents/yzh/swiftnet2/swiftnet/datasets/')
 path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
-evaluating = True
+evaluating = False
 random_crop_size = 384 #768
 
 scale = 1
