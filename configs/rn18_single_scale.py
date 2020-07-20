@@ -16,12 +16,12 @@ from evaluation import StorePreds
 
 from models.util import get_n_params
 
-root = Path.home() / Path('workspace/swiftnet_scene/datasets/')
+root = Path.home() / Path('Documents/yzh/swiftnet2/swiftnet/datasets/')
 path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
 evaluating = True
-random_crop_size = 384 # 768 resolution for full cityscapes
+random_crop_size = 384 #768
 
 scale = 1
 mean = [73.15, 82.90, 72.3]
@@ -83,7 +83,7 @@ else:
     lr_min = 1e-6
     fine_tune_factor = 4
     weight_decay = 1e-4
-    epochs = 100 #250 for cityscapes
+    epochs = 100 # 250
 
     optim_params = [
         {'params': model.random_init_params(), 'lr': lr, 'weight_decay': weight_decay},
