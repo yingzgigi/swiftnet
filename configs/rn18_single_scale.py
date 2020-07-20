@@ -21,7 +21,7 @@ path = os.path.abspath(__file__)
 dir_path = os.path.dirname(path)
 
 evaluating = False
-random_crop_size = 768
+random_crop_size = 384 #768
 
 scale = 1
 mean = [73.15, 82.90, 72.3]
