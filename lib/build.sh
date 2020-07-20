@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-rm cylib.so
+#rm cylib.so
 
 cython -a cylib.pyx -o cylib.cc
 
