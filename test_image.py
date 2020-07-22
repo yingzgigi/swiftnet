@@ -24,7 +24,7 @@ parser.add_argument('--output', default=None, metavar='DIR', help='path to outpu
 parser.add_argument('--profile', dest='profile', action='store_true', help='Profile one forward pass')
 
 
-def load_image():
+if __name__ == '__main__':
     args = parser.parse_args()
     conf_path = Path(args.config)
     conf = import_module(args.config) #load network model
