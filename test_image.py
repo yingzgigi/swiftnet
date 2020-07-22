@@ -5,7 +5,7 @@ import importlib.util
 import torch
 from torch.utils.data import DataLoader
 
-from data.ade20k import init_ade20k_class_color_info
+from data.ade20k import *
 from models.semseg import SemsegModel
 from models.resnet.resnet_single_scale import *
 from data.transform import *
