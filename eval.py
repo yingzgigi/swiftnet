@@ -24,6 +24,6 @@ if __name__ == '__main__':
 
     model = conf.model.cuda()
 
-    for loader, name in conf.eval_loaders:
+    for loader, name in conf.eval_loaders: # "val"dataset, "train"dataset. eval_loader is in rm18_single_scale.py
         iou, per_class_iou = evaluate_semseg(model, loader, class_info, observers=conf.eval_observers)
-        print(f'{name}: {iou:.2f}')
+        print(f'{name}: {iou:.2f}') #give image names

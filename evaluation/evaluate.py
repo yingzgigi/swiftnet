@@ -58,7 +58,7 @@ def get_pred(logits, labels, conf_mat):
     pred = pred.numpy().astype(np.int32)
     true = labels.numpy().astype(np.int32)
     cylib.collect_confusion_matrix(pred.reshape(-1), true.reshape(-1), conf_mat)
-
+    return pred #add
 
 def mt(sync=False):
     if sync:
@@ -66,9 +66,9 @@ def mt(sync=False):
     return 1000 * perf_counter()
 
 
-def evaluate_semseg(model, data_loader, class_info, observers=()):
+def evaluate_semseg(model, data_loader, class_info, observers=()):#if evaluating, data_loader = validation loader
     model.eval()
-    managers = [torch.no_grad()] + list(observers)
+    managers = [torch.no_grad()] + list(observers)#observers: store prediction
     with contextlib.ExitStack() as stack:
         for ctx_mgr in managers:
             stack.enter_context(ctx_mgr)
@@ -76,11 +76,12 @@ def evaluate_semseg(model, data_loader, class_info, observers=()):
         for step, batch in tqdm(enumerate(data_loader), total=len(data_loader)):
             batch['original_labels'] = batch['original_labels'].numpy().astype(np.uint32)
             logits, additional = model.do_forward(batch, batch['original_labels'].shape[1:3])
-            pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)
+            pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###
             for o in observers:
                 o(pred, batch, additional)
             cylib.collect_confusion_matrix(pred.flatten(), batch['original_labels'].flatten(), conf_mat)
         print('')
+        #compute and print evaluating results
         pixel_acc, iou_acc, recall, precision, _, per_class_iou = compute_errors(conf_mat, class_info, verbose=True)
     model.train()
     return iou_acc, per_class_iou

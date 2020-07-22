@@ -28,7 +28,7 @@ class ADE20k(Dataset):
         self.images_dir = root / 'ADEChallengeData2016/images/' / subset
         self.labels_dir = root / 'ADEChallengeData2016/annotations/' / subset
 
-        self.images = list(sorted(self.images_dir.glob('*.jpg')))
+        self.images = list(sorted(self.images_dir.glob('*.jpg'))) #return the matched files
         self.labels = list(sorted(self.labels_dir.glob('*.png')))
 
         self.transforms = transforms
