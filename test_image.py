@@ -33,7 +33,7 @@ if __name__ == '__main__':
     #class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets'))
     num_classes = 150
     
-    
+    mean = [73.15, 82.90, 72.3]
     
     resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)#####4
     model = SemsegModel(resnet, num_classes) ####3
