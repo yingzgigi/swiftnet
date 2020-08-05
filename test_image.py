@@ -33,6 +33,7 @@ if __name__ == '__main__':
     #class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets'))
     num_classes = 150
     
+    scale = 1
     mean = [73.15, 82.90, 72.3]
     std = [47.67, 48.49, 47.73]
     resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)#####4
