@@ -4,6 +4,7 @@ import importlib.util
 
 import torch
 from torch.utils.data import DataLoader
+import numpy as np
 
 from data.ade20k import *
 from models.semseg import SemsegModel
