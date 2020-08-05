@@ -34,7 +34,7 @@ if __name__ == '__main__':
     num_classes = 150
     
     mean = [73.15, 82.90, 72.3]
-    
+    std = [47.67, 48.49, 47.73]
     resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)#####4
     model = SemsegModel(resnet, num_classes) ####3
     
