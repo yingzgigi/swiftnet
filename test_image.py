@@ -47,7 +47,7 @@ if __name__ == '__main__':
     #params
     conf_mat = np.zeros((model.num_classes, model.num_classes), dtype=np.uint64)
 
-    logits, additional = model.do_forward(1, loader_pred.shape[1:3])
+    logits, additional = model.do_forward(1, loader_pred)
     pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###
     
     pred = get_pred(logits, class_info, conf_mat)
