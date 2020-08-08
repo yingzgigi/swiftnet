@@ -73,7 +73,7 @@ def evaluate_semseg(model, data_loader, class_info, observers=()):#if evaluating
         for ctx_mgr in managers:
             stack.enter_context(ctx_mgr)
         conf_mat = np.zeros((model.num_classes, model.num_classes), dtype=np.uint64)
-        for step, batch in tqdm(enumerate(data_loader), total=len(data_loader)):
+        for step, batch in tqdm(enumerate(data_loader), total=len(data_loader)): #tqdm to show progress
             batch['original_labels'] = batch['original_labels'].numpy().astype(np.uint32)
             logits, additional = model.do_forward(batch, batch['original_labels'].shape[1:3])
             pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###

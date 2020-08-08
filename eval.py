@@ -4,7 +4,7 @@ import importlib.util
 from evaluation import evaluate_semseg
 
 
-def import_module(path):
+def import_module(path): 
     spec = importlib.util.spec_from_file_location("module", path)
     module = importlib.util.module_from_spec(spec)
     spec.loader.exec_module(module)
@@ -18,7 +18,7 @@ parser.add_argument('--profile', dest='profile', action='store_true', help='Prof
 if __name__ == '__main__':
     args = parser.parse_args()
     conf_path = Path(args.config)
-    conf = import_module(args.config)
+    conf = import_module(args.config) #import trained module
 
     class_info = conf.dataset_val.class_info
 

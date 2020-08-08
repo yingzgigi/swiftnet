@@ -42,10 +42,12 @@ if __name__ == '__main__':
     
     model.load_state_dict(torch.load('weights/rn18_single_scale/model_best.pt'))
     
+    loader_pred = DataLoader(pred_image, batch_size=1, collate_fn=custom_collate)#from rn18_single_scale
+    
     #params
     conf_mat = np.zeros((model.num_classes, model.num_classes), dtype=np.uint64)
 
-    logits, additional = model.do_forward(1, pred_image.shape[1:3])
+    logits, additional = model.do_forward(1, loader_pred.shape[1:3])
     pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###
     
     pred = get_pred(logits, class_info, conf_mat)
