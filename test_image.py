@@ -1,6 +1,8 @@
 import argparse
 from pathlib import Path
 import importlib.util
+from PIL import Image as pimg
+import skimage.transform
 
 import torch
 from torch.utils.data import DataLoader
@@ -21,14 +23,16 @@ def import_module(path):
 parser = argparse.ArgumentParser(description='Detector train')
 parser.add_argument('config', type=str, help='Path to configuration .py file')
 parser.add_argument('--rgb', default=None, metavar='DIR', help='path to image')
+parser.add_argument('--depth', default=None, metavar='DIR', help='path to image')
 parser.add_argument('--output', default=None, metavar='DIR', help='path to output')
 parser.add_argument('--profile', dest='profile', action='store_true', help='Profile one forward pass')
 
 
 if __name__ == '__main__':
+    
     args = parser.parse_args()
     conf_path = Path(args.config)
-    conf = import_module(args.config) #load network model
+    #conf = import_module(args.config) #load network model
     pred_image = Path(args.rgb)
     
     #class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets'))
@@ -40,14 +44,33 @@ if __name__ == '__main__':
     resnet = resnet18(pretrained=True, efficient=False, mean=mean, std=std, scale=scale)#####4
     model = SemsegModel(resnet, num_classes) ####3
     
+    #load_ckpt(model, None, args.last_ckpt, device)#
+    model.eval()#
+    #model.to(device)#
+    
+    depth = pimg.open(args.depth)
+    image = pimg.open(args.rgb)#
+    
+    image = skimage.transform.resize(image, (1024, 2048), order = 1, mode='reflect', preserve_range=True)
+    depth = skimage.transform.resize(depth, (1024, 2048), order=0, mode='reflect', preserve_range=True)
+    
+    image = np.array(image, np.float32)
+    if len(image.shape) == 3:
+        img = np.ascontiguousarray(np.transpose(img, (2, 0, 1)))
+    iamge = torch.from_numpy(image)
+    
+    depth = np.array(depth, np.uint8)
+    depth = torch.from_numpy(depth)
+    
+    
     model.load_state_dict(torch.load('weights/rn18_single_scale/model_best.pt'))
     
-    loader_pred = DataLoader(pred_image, batch_size=1, collate_fn=custom_collate)#from rn18_single_scale
+    #loader_pred = DataLoader(pred_image, batch_size=1, collate_fn=custom_collate)#from rn18_single_scale
     
     #params
     conf_mat = np.zeros((model.num_classes, model.num_classes), dtype=np.uint64)
 
-    logits, additional = model.do_forward(1, loader_pred)
+    logits, additional = model.forward(image, (1024, 2048), (1024,2048))
     pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###
     
     pred = get_pred(logits, class_info, conf_mat)
