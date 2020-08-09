@@ -5,6 +5,7 @@ from PIL import Image as pimg
 import skimage.transform
 
 import torch
+from torchvision.transforms import Compose
 from torch.utils.data import DataLoader
 import numpy as np
 
