@@ -25,7 +25,8 @@ class StorePreds:
             store_img = np.concatenate([i.astype(np.uint8) for i in [im, self.to_color(p), gt]], axis=0)
             store_img = pimg.fromarray(store_img)
             store_img.thumbnail((960, 1344))
-            store_img.save(f'{self.store_dir}/{subset}/{name}.jpg')
+            #store_img.save(f'{self.store_dir}/{subset}/{name}.jpg')
+            store_img.save(f'predict1.jpg')
 
 class StoreSubmissionPreds:
     def __init__(self, store_dir, remap, to_color=None, store_dir_color=None):
