@@ -89,6 +89,7 @@ if __name__ == '__main__':
     print(store_img)
     store_img = pimg.fromarray(store_img)
     store_img.thumbnail((960, 1344))
+    print(store_img)
     store_img.save(f'predict1.jpg')
     
     #pred = get_pred(logits, class_info, conf_mat)
