@@ -50,11 +50,12 @@ if __name__ == '__main__':
     
     #depth = pimg.open(args.depth)
     image = pimg.open(args.rgb)#
+    image = np.array(image, np.float32)
     
     image = skimage.transform.resize(image, (1024, 2048), order = 1, mode='reflect', preserve_range=True)
     #depth = skimage.transform.resize(depth, (1024, 2048), order=0, mode='reflect', preserve_range=True)
     
-    image = np.array(image, np.float32)
+    
     if len(image.shape) == 3:
         img = np.ascontiguousarray(np.transpose(img, (2, 0, 1)))
     image = torch.from_numpy(image)
