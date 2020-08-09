@@ -74,8 +74,10 @@ if __name__ == '__main__':
     logits, additional = model.forward(image, (1024, 2048), (1024,2048))
     pred = torch.argmax(logits.data, dim=1).byte().cpu().numpy().astype(np.uint32)###
     
-    pred = get_pred(logits, class_info, conf_mat)
-    print(pred)
+    class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets'))
+    print(class_info, color_info)
+    #pred = get_pred(logits, class_info, conf_mat)
+    #print(pred)
     #class_info = conf.dataset_val.class_info
     
     #model = conf.model.cuda()
