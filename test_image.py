@@ -59,7 +59,7 @@ if __name__ == '__main__':
     if len(image.shape) == 3:
         image = np.ascontiguousarray(np.transpose(image, (2, 0, 1)))
     image = torch.from_numpy(image)
-    
+    image = image.unsqueeze(0)
     #depth = np.array(depth, np.uint8)
     #depth = torch.from_numpy(depth)
     
