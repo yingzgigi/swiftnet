@@ -32,7 +32,7 @@ if __name__ == '__main__':
     
     args = parser.parse_args()
     conf_path = Path(args.config)
-    #conf = import_module(args.config) #load network model
+    conf = import_module(args.config) #load network model
     pred_image = Path(args.rgb)
     
     #class_info, color_info = init_ade20k_class_color_info(Path('/home/hchen/Documents/yzh/swiftnet2/swiftnet/datasets'))
