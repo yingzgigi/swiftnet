@@ -14,6 +14,7 @@ from models.semseg import SemsegModel
 from models.resnet.resnet_single_scale import *
 from data.transform import *
 from evaluation.evaluate import *
+from evaluation import StorePreds
 
 def import_module(path):
     spec = importlib.util.spec_from_file_location("module", path)
