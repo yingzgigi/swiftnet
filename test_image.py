@@ -83,11 +83,12 @@ if __name__ == '__main__':
     to_color = ColorizeLabels(color_info)
     to_image = Compose([DenormalizeTh(scale, mean, std), Numpy(), to_color])
     eval_observers = [StorePreds(store_dir, to_image, to_color)] #store colorized image
-    
+    '''
     store_img = np.concatenate([i.astype(np.uint8) for i in [to_image['image'], self.to_color(pred)]], axis=0)
     store_img = pimg.fromarray(store_img)
     store_img.thumbnail((960, 1344))
     store_img.save(f'predict1.jpg')
+    '''
     #pred = get_pred(logits, class_info, conf_mat)
     #print(pred)
     #class_info = conf.dataset_val.class_info
