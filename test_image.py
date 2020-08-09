@@ -86,6 +86,7 @@ if __name__ == '__main__':
     #eval_observers = [StorePreds(store_dir, to_image, to_color)] #store colorized image
     
     store_img = np.concatenate([i.astype(np.uint8) for i in to_color(pred)], axis=0)
+    print(store_img)
     store_img = pimg.fromarray(store_img)
     store_img.thumbnail((960, 1344))
     store_img.save(f'predict1.jpg')
